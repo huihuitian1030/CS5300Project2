@@ -1,0 +1,8 @@
+package p2;
+
+public class test {
+	public static void main(String[] args){
+		EdgesFilter ef = new EdgesFilter();
+		System.out.println("finished");
+	}
+}

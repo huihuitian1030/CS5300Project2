@@ -1,0 +1,8 @@
+package p2;
+
+public class SimplePageRank {
+	public static void main (String [] args){
+		String selectedFile = Constant.outputFile;
+		String outputFile = 
+	}
+}

@@ -1,0 +1,12 @@
+package p2;
+
+public class SimplePageRank {
+	public static void main (String [] args){
+		String inputFile = Constant.selectedFile;
+		String outputFile = Constant.singlePRFile;
+		
+		for (int i = 0; i< Constant.iteration; i++) {
+			
+		}
+	}
+}

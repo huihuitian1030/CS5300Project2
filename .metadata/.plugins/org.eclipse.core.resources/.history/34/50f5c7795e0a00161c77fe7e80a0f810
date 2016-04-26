@@ -1,0 +1,18 @@
+package p2;
+
+import java.util.*;
+
+
+public class Node {
+	private int nodeId;
+	private List<Integer> edgesList;
+	private float pageRank;
+	
+	public Node(int nodeId){
+		this.nodeId = nodeId;
+		this.edgesList = new ArrayList<Integer>();
+		this.pageRank = 0.0f;
+		
+	}
+	
+}

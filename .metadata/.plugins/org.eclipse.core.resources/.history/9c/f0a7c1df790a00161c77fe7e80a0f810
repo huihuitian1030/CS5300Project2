@@ -1,0 +1,83 @@
+package p2;
+
+import java.io.*;
+import java.util.*;
+
+public class EdgesFilter {
+	protected static final String inputFile = "edges.txt";
+	protected static final String outputFile = "selectedEdges.txt";
+	protected static final String space = " ";
+	protected static final String parser= "\\s+";
+	protected static final double netId = 0.976;
+	protected static double rejectMin;
+	protected static double rejectLimit;
+	protected static int numberNodes = 685230;
+	protected static float defaultPageRank = 1.0f/numberNodes;
+	protected static final String connection = ",";
+	protected static final String empty = "none";
+	protected static int isolation = 0;
+	 
+	public EdgesFilter() {
+		rejectMin = 0.9 * netId;
+		rejectLimit = rejectMin+ 0.01;
+		selectEdges();
+	}
+	
+	protected void selectEdges() {
+		try {
+			BufferedReader buffer = new BufferedReader(new FileReader(inputFile));
+			BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile, false));
+			String line = "";
+			String prevId = "";
+			int count = 0;
+			while(true) {
+				line = buffer.readLine();
+				if (line == null || line.isEmpty()) {
+					break;
+				}
+				line = line.trim();
+				String[] info = line.split(parser);
+				String src = info[0];
+				String dest = info[1];
+				double randomNum = Double.parseDouble(info[2]);
+				if (randomNum>=rejectMin && randomNum <rejectLimit) {
+					continue;
+				}
+				if (src.equals(prevId)){
+					writer.write(connection);
+					writer.write(dest);
+					count++;
+				}else {
+					if (prevId!=""){
+						writer.write(space);
+						writer.write(String.valueOf(count));
+						writer.newLine();
+					}
+//					while(prevId!="" && Integer.parseInt(src)-Integer.parseInt(prevId) > 1){
+//						isolation++;
+//						prevId = String.valueOf(Integer.parseInt(prevId) + 1);
+//						writer.write(prevId);
+//						writer.write(space);
+//						writer.write(String.valueOf(defaultPageRank));
+//						writer.write(space);
+//						writer.write(empty);
+//						writer.write(space);
+//						writer.write(String.valueOf(0));
+//						writer.newLine();
+//					}
+					prevId = src;
+					writer.write(src);
+					writer.write(space);
+					writer.write(String.valueOf(defaultPageRank));
+					writer.write(space);
+					writer.write(dest);
+					count = 1;
+				}
+			}
+			buffer.close();
+			writer.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

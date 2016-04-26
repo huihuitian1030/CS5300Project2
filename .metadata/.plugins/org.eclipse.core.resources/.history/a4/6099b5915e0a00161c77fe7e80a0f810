@@ -1,0 +1,9 @@
+package p2;
+
+public class EdgesFilter {
+	public static final String inputFile = "edges.txt";
+	public static final String outputFile = "selectedEdges.txt";
+	
+	
+			
+}
