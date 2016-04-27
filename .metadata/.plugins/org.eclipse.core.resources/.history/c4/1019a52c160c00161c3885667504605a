@@ -2,8 +2,8 @@ package p2;
 
 public class Constant {
 	protected static final String inputFile = "edges.txt";
-	protected static final String simpleInput = "simpleSelectedEdges.txt";
-	protected static final String blockInput = "blockSelectedEdges.txt";	
+	protected static final String selectedFile = "simpleSelectedEdges.txt";
+	protected static final String blockFile = "blockSelectedEdges.txt";	
 	protected static final String BlockOuput = "/Users/ishiamae/Documents/workspace5300/CS5300Project2/"
 			+ "CS5300Project2/blockPageRankOutput.txt";
 	protected static final String SimpleOuput = "/Users/ishiamae/Documents/workspace5300/CS5300Project2/"

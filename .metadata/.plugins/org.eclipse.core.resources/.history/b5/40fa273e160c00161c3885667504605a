@@ -12,8 +12,8 @@ public class EdgesFilter {
 	protected static void selectEdges() {
 		try {
 			BufferedReader buffer = new BufferedReader(new FileReader(Constant.inputFile));
-			BufferedWriter writer = new BufferedWriter(new FileWriter(Constant.simpleInput, false));
-			BufferedWriter blockWriter = new BufferedWriter(new FileWriter(Constant.blockInput,false));
+			BufferedWriter writer = new BufferedWriter(new FileWriter(Constant.selectedFile, false));
+			BufferedWriter blockWriter = new BufferedWriter(new FileWriter(Constant.blockFile,false));
 			String line = "";
 			String prevId = "";
 			int count = 0;
