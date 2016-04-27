@@ -13,6 +13,7 @@ public class EdgesFilter {
 		try {
 			BufferedReader buffer = new BufferedReader(new FileReader(Constant.inputFile));
 			BufferedWriter writer = new BufferedWriter(new FileWriter(Constant.selectedFile, false));
+			BufferedWriter blockWriter = new BufferedWriter(new FileWriter(Constant.blockFile,false));
 			String line = "";
 			String prevId = "";
 			int count = 0;
@@ -31,24 +32,42 @@ public class EdgesFilter {
 				}
 				if (src.equals(prevId)){
 					writer.write(Constant.connection);
+					blockWriter.write(Constant.connection);
 					writer.write(dest);
+					blockWriter.write(dest);
 					count++;
 				}else {
 					if (prevId!=""){
 						writer.write(Constant.space);
+						blockWriter.write(Constant.space);
 						writer.write(String.valueOf(count));
+						blockWriter.write(String.valueOf(count));
 						writer.newLine();
+						blockWriter.newLine();
 					}
 					while (prevId!="" && Integer.parseInt(src)-Integer.parseInt(prevId)>1){
 						prevId = String.valueOf(Integer.parseInt(prevId) + 1);
 						writer.write(prevId);
+						
+						int block = blockIDofNodes(Integer.parseInt(prevId));
+						blockWriter.write(String.valueOf(block));
+						blockWriter.write(Constant.space);
+						blockWriter.write(prevId);
+						
 						writer.write(Constant.space);
+						blockWriter.write(Constant.space);
 						writer.write(String.valueOf(Constant.defaultPageRank));
+						blockWriter.write(String.valueOf(Constant.defaultPageRank));
 						writer.write(Constant.space);
+						blockWriter.write(Constant.space);
 						writer.write(Constant.emptyEdgeList);
+						blockWriter.write(Constant.emptyEdgeList);
 						writer.write(Constant.space);
+						blockWriter.write(Constant.space);
 						writer.write(String.valueOf(0));
+						blockWriter.write(String.valueOf(0));
 						writer.newLine();
+						blockWriter.newLine();
 					}
 					prevId = src;
 					writer.write(src);
@@ -56,17 +75,37 @@ public class EdgesFilter {
 					writer.write(String.valueOf(Constant.defaultPageRank));
 					writer.write(Constant.space);
 					writer.write(dest);
+					int block = blockIDofNodes(Integer.parseInt(src));
+					blockWriter.write(String.valueOf(block));
+					blockWriter.write(Constant.space);
+					blockWriter.write(src);
+					blockWriter.write(Constant.space);
+					blockWriter.write(String.valueOf(Constant.defaultPageRank));
+					blockWriter.write(Constant.space);
+					blockWriter.write(dest);
 					count = 1;
 				}
 			}
 			if (prevId!=""){
 				writer.write(Constant.space);
 				writer.write(String.valueOf(count));
+				blockWriter.write(Constant.space);
+				blockWriter.write(String.valueOf(count));
 			}
 			buffer.close();
 			writer.close();
+			blockWriter.close();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+	
+	public static int blockIDofNodes(int nodeID){
+		int blockID = (int) Math.floor(nodeID / Constant.partitionSize);
+		long testBoundry = Constant.blockBoundries[blockID];
+		if(testBoundry > nodeID){
+			blockID--;
+		}
+		return blockID;
 	}
 }

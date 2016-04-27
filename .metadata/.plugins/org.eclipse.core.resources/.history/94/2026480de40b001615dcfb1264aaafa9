@@ -1,0 +1,55 @@
+package p2;
+
+import java.io.IOException;
+
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapred.FileInputFormat;
+import org.apache.hadoop.mapred.FileOutputFormat;
+import org.apache.hadoop.mapred.JobClient;
+import org.apache.hadoop.mapred.JobConf;
+import org.apache.hadoop.mapred.RunningJob;
+import org.apache.hadoop.mapred.TextInputFormat;
+import org.apache.hadoop.mapred.TextOutputFormat;
+
+public class BlockPageRank {
+	protected static enum Counter {
+        residual;
+	}
+	
+	public static void main (String [] args) throws IOException{
+		if (args.length!= 2){
+			System.out.println("invalid input");
+			System.exit(1);
+		}
+		String inputPath = args[0];
+		String outputPath =args[1];
+		float[] residual = new float[Constant.iteration];
+		
+		for (int i = 0; i< Constant.iteration; i++) {
+			JobConf conf = new JobConf(SimplePageRank.class);
+			conf.setOutputKeyClass(Text.class);
+	        conf.setOutputValueClass(Text.class);
+	        
+	        conf.setMapperClass(BlockPageRankMapper.class);
+	        conf.setReducerClass(BlockPageRankReducer.class);
+	        
+	        conf.setInputFormat(TextInputFormat.class);
+	        conf.setOutputFormat(TextOutputFormat.class);
+	        if (i>0) {
+				inputPath = outputPath + "/output" + i;
+			}
+	        FileInputFormat.setInputPaths(conf, new Path(inputPath));
+	        FileOutputFormat.setOutputPath(conf, new Path(outputPath + "/output" + (i + 1)));
+	        RunningJob job = JobClient.runJob(conf);
+	        long curr_residual = job.getCounters()
+					.findCounter(Counter.residual).getValue();
+	        residual[i] = (float)curr_residual/ Constant.precision/Constant.numberNodes;
+		}
+		for (int i = 0; i<Constant.iteration; i++){
+			System.out.println("Iteration " + i + "avg error "
+					+ residual[i]);
+		}
+	}
+
+}

@@ -1,0 +1,136 @@
+package p2;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapred.MapReduceBase;
+import org.apache.hadoop.mapred.OutputCollector;
+import org.apache.hadoop.mapred.Reducer;
+import org.apache.hadoop.mapred.Reporter;
+
+public class BlockPageRankReducer extends MapReduceBase
+								  implements Reducer<Text, Text, Text, Text> {
+	
+	private HashMap<String, ArrayList<String>> BE = new HashMap<String, ArrayList<String>>();
+	private HashMap<String, Float> BC = new HashMap<String, Float>();
+	private HashMap<String, Float> pageRank = new HashMap<String, Float>();
+	private HashMap<String, Node> nodeMap = new HashMap<String, Node>();
+	
+	private ArrayList<String> currNode = new ArrayList<String>();
+	private final float threshold = (float) 0.0001;
+
+	@Override
+	public void reduce(Text key, Iterator<Text> values, OutputCollector<Text, Text> output, Reporter reporter)
+			throws IOException {
+		// TODO Auto-generated method stub
+		cleanup();
+		
+		int lowestNodeId = Integer.MAX_VALUE;
+		int secondLowestNodeId = Integer.MAX_VALUE;
+		
+		while (values.hasNext()) {
+			Text line = values.next();
+			String[] words = line.toString().split(" ");
+			
+			if (words[0].equals("PR")) {
+				String nodeId = words[1];
+				float initialPR = Float.parseFloat(words[2]);
+				Node node = new Node(nodeId);
+				node.setPageRank(initialPR);
+				if (words.length == 4) {
+					node.setOutEdges(words[3]);
+					node.setDegree(words[3].split(",").length);
+				}
+				currNode.add(nodeId);
+				pageRank.put(nodeId, initialPR);
+				nodeMap.put(nodeId, node);
+				int nodeNum = Integer.parseInt(nodeId);
+				if (nodeNum < lowestNodeId) {
+					secondLowestNodeId = lowestNodeId;
+					lowestNodeId = nodeNum;
+				}
+				else if (nodeNum < secondLowestNodeId) { secondLowestNodeId = nodeNum; }
+			}
+			
+			else if (words[0].equals("BE")) {
+				ArrayList<String> be = new ArrayList<String>();
+				if (BE.containsKey(words[2])) { be = BE.get(words[2]); }
+				be.add(words[1]);
+				BE.put(words[2], be);
+			}
+			
+			else if (words[0].equals("BC")) {
+				float bc = (float) 0.0;
+				if (BC.containsKey(words[2])) { bc = BC.get(words[2]); }
+				bc = bc + Float.parseFloat(words[3]);
+				BC.put(words[2], bc);
+			}
+		}
+		
+		int counter = 1;
+		float residualError = IterateBlockOnce();
+		while (residualError > threshold) {
+			counter++;
+			residualError = IterateBlockOnce();
+		}
+		
+		residualError = (float) 0.0;
+		for (String nodeId : currNode) {
+			Node node = nodeMap.get(nodeId); 
+			float error = Math.abs(node.getPageRank() - pageRank.get(nodeId)) / pageRank.get(nodeId);
+			residualError = residualError + error;
+		}
+		residualError = residualError / currNode.size();
+		
+		long residual = (long) Math.floor(residualError * Constant.precision);
+		reporter.getCounter(BlockPageRank.Counter.residual).increment(residual);
+		// TODO: add iterations here
+		reporter.getCounter(BlockPageRank.Counter.totalIteration).increment((long) counter);
+		
+		for (String nodeId : currNode) {
+			Node node = nodeMap.get(nodeId);
+			Text out = new Text(nodeId + " " + pageRank.get(nodeId) + " " + node.getOutEdges() + " " + node.getDegree());
+			output.collect(key, out);
+			int nodeNum = Integer.parseInt(nodeId);
+			if (nodeNum == lowestNodeId || nodeNum == secondLowestNodeId)
+				System.out.println("Block: " + key.toString() + " Node: " + nodeId + " PageRank: " + pageRank.get(nodeId));
+		}
+	}
+	
+	public float IterateBlockOnce() {
+		float residualError = (float) 0.0;
+		
+		for (String nodeId : currNode) {
+			float startPR = pageRank.get(nodeId);
+			float endPR = (float) 0.0;
+			
+			if (BE.containsKey(nodeId)) {
+				ArrayList<String> be = BE.get(nodeId);
+				for (String neighbor : be)
+					endPR = endPR + pageRank.get(neighbor) / nodeMap.get(neighbor).getDegree();
+			}
+			
+			if (BC.containsKey(nodeId)) {
+				endPR = endPR + BC.get(nodeId);
+			}
+			
+			endPR = (Constant.dampingFactor * endPR) + (1 - Constant.dampingFactor) / Constant.numberNodes;
+			residualError = residualError + Math.abs(startPR - endPR) / endPR;
+			pageRank.put(nodeId, endPR);
+		}
+		
+		return residualError / currNode.size();
+	}
+	
+	public void cleanup() {
+		BE.clear();
+		BC.clear();
+		pageRank.clear();
+		nodeMap.clear();
+		currNode.clear();
+	}
+
+}

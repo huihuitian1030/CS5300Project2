@@ -1,39 +1,49 @@
 package p2;
 
-import java.util.*;
-
-
 public class Node {
-	private int nodeId;
-	private List<Integer> edgeList;
-	private double pageRank;
 	
-	public Node(int nodeId){
+	private String nodeId;
+	private String outEdges;
+	private float pageRank;
+	private int degree;
+	
+	public Node(String nodeId){
 		this.nodeId = nodeId;
-		this.edgeList = new ArrayList<Integer>();
-		this.pageRank = 0.0;
+		this.outEdges = Constant.emptyEdgeList;
+		this.pageRank = (float) 0.0;
+		this.degree = 0;
 	}
 	
-	public int getNodeId() {
+	public String getNodeId() {
 		return this.nodeId;
 	}
-	public void addEdge(int id) {
-		edgeList.add(id);
+	
+	public void setNodeId(String nodeId) {
+		this.nodeId = nodeId;
 	}
 	
-	public List<Integer> getEdgeList() {
-		return edgeList;
+	public String getOutEdges() {
+		return this.outEdges;
+	}
+	
+	public void setOutEdges(String outEdges) {
+		this.outEdges = outEdges;
+	}
+	
+	public float getPageRank() {
+		return this.pageRank;
+	}
+	
+	public void setPageRank(float pageRank) {
+		this.pageRank = pageRank;
 	}
 	
 	public int getDegree() {
-		return edgeList.size();
+		return this.degree;
 	}
 	
-	public void setPageRank(double pr) {
-		this.pageRank = pr;
+	public void setDegree(int degree) {
+		this.degree = degree;
 	}
 	
-	public double getPageRank() {
-		return this.pageRank;
-	}
 }

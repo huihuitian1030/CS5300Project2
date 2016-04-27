@@ -8951,3 +8951,640 @@ java.io.IOException: File not found: /Users/ishiamae/Documents/workspace5300/CS5
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:244)
 	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:142)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-25 21:58:12.404
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui.ide 4 4 2016-04-25 22:00:35.916
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2016-04-25 22:00:35.917
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2016-04-25 22:00:35.917
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1658)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1740)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1197)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2270)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$4.run(IDEWorkbenchAdvisor.java:453)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SESSION 2016-04-26 14:52:21.667 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_77
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/ishiamae/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/ishiamae/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-04-26 14:52:40.302
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-26 14:52:57.279
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-26 14:52:59.508
+!MESSAGE Monitoring content of /Users/ishiamae/.aws/credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-26 14:52:59.659
+!MESSAGE AWS toolkit core plugin initialized after 2381 milliseconds.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-26 14:52:59.668
+!MESSAGE Found valid identity id cache us-east-1:5b26f565-ec6c-4f98-b4b9-2774ef67bb49
+
+!ENTRY org.eclipse.ui 2 0 2016-04-26 14:52:59.967
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.amazonaws.eclipse.elasticbeanstalk' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 15:17:27.602
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 15:22:52.759
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 15:28:10.451
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 15:43:45.941
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 15:49:52.703
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 16:00:39.008
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 16:59:18.662
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui.ide 4 4 2016-04-26 17:05:24.616
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2016-04-26 17:05:24.618
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2016-04-26 17:05:24.618
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1658)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1740)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1197)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2270)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$4.run(IDEWorkbenchAdvisor.java:453)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SESSION 2016-04-26 17:16:23.492 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_77
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/ishiamae/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/ishiamae/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-04-26 17:16:42.940
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-26 17:16:59.202
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-26 17:17:00.571
+!MESSAGE Monitoring content of /Users/ishiamae/.aws/credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-26 17:17:00.704
+!MESSAGE AWS toolkit core plugin initialized after 1501 milliseconds.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-26 17:17:00.713
+!MESSAGE Found valid identity id cache us-east-1:5b26f565-ec6c-4f98-b4b9-2774ef67bb49
+
+!ENTRY org.eclipse.ui 2 0 2016-04-26 17:17:01.043
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.amazonaws.eclipse.elasticbeanstalk' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 17:23:14.235
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 17:32:23.349
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 17:39:13.232
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 17:56:56.094
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 18:03:41.194
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 18:09:15.952
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 18:17:05.445
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui.ide 4 4 2016-04-26 18:19:12.657
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2016-04-26 18:19:12.658
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2016-04-26 18:19:12.658
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1658)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1740)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1197)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2270)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$4.run(IDEWorkbenchAdvisor.java:453)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SESSION 2016-04-26 18:19:16.365 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_77
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/ishiamae/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/ishiamae/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-04-26 18:19:24.798
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-26 18:19:34.238
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-26 18:19:36.181
+!MESSAGE Monitoring content of /Users/ishiamae/.aws/credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-26 18:19:36.264
+!MESSAGE AWS toolkit core plugin initialized after 2027 milliseconds.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-26 18:19:36.273
+!MESSAGE Found valid identity id cache us-east-1:5b26f565-ec6c-4f98-b4b9-2774ef67bb49
+
+!ENTRY org.eclipse.ui 2 0 2016-04-26 18:19:36.276
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.amazonaws.eclipse.elasticbeanstalk' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 18:24:30.066
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 18:30:17.334
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 18:37:48.781
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 18:43:01.753
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 20:01:20.130
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 20:09:24.054
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 20:16:38.885
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 20:21:48.451
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 20:30:42.754
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 20:36:04.143
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 20:43:10.882
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 20:55:40.526
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 21:03:29.889
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 568 2016-04-26 21:12:18.873
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /Users/ishiamae/Documents/workspace5300/CS5300Project2/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1769)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1853)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1163)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

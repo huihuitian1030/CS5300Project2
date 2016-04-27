@@ -24,7 +24,7 @@ public class SimplePageRankMapper extends MapReduceBase implements Mapper<LongWr
 		float newPageRank = pageRank/degree;
 		Text newPR = new Text(String.valueOf(newPageRank));
 		
-		Text turpleList = new Text("PageRank "+String.valueOf(pageRank) + " " + edges);
+		Text turpleList = new Text("PR "+String.valueOf(pageRank) + " " + edges);
 		output.collect(u, turpleList);
 		if(!edges.equals(Constant.emptyEdgeList)){
 			String[] outNodes = edges.split(",");

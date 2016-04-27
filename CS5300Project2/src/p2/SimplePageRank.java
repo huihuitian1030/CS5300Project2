@@ -1,4 +1,6 @@
 package p2;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.io.IOException;
 
 import org.apache.hadoop.fs.Path;
@@ -23,7 +25,8 @@ public class SimplePageRank {
 		String inputPath = args[0];
 		String outputPath =args[1];
 		float[] residual = new float[Constant.iteration];
-		
+		BufferedWriter out = new BufferedWriter
+		         (new FileWriter(Constant.SimpleOuput, false));
 		for (int i = 0; i< Constant.iteration; i++) {
 			JobConf conf = new JobConf(SimplePageRank.class);
 			conf.setOutputKeyClass(Text.class);
@@ -45,8 +48,10 @@ public class SimplePageRank {
 	        residual[i] = (float)curr_residual/ Constant.precision/Constant.numberNodes;
 		}
 		for (int i = 0; i<Constant.iteration; i++){
-			System.out.println("Iteration " + i + "avg error "
+			out.write("Iteration " + i + " avg error "
 					+ residual[i]);
+			out.newLine();
 		}
+		out.close();
 	}
 }
