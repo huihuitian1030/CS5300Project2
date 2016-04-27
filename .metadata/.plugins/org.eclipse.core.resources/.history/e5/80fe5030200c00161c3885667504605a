@@ -14,7 +14,7 @@ public class SimplePageRankMapper extends MapReduceBase implements Mapper<LongWr
 	
 	public void map(LongWritable key, Text value, OutputCollector<Text,Text> output,Reporter reporter) throws IOException{
 		
-		String[] token = value.toString().split(Constant.parser);
+		String[] token = value.toString().split("\\s+");
 
 		Text u = new Text(token[0]);
 		float pageRank = Float.parseFloat(token[1]);

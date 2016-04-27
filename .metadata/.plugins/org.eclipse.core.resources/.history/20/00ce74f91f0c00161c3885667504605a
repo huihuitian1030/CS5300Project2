@@ -3,6 +3,9 @@ package p2;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
+//import java.util.ArrayList;
+//import java.util.List;
+
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapred.FileInputFormat;
@@ -25,9 +28,17 @@ public class BlockPageRank {
 		}
 		String inputPath = args[0];
 		String outputPath =args[1];
+		//List<Float> residual = new ArrayList<Float>();
+		//List<Float> averageIteration = new ArrayList<Float>();
 		float averageResidual = 1.0f;
 		int iteration = 0;
 		while(averageResidual > Constant.residualThreshold) {
+
+			//if (iteration>6) {
+			//	out.newLine();
+			//	out.write("after 7 pass, something wrong");
+			//	break;
+			//}
 			JobConf conf = new JobConf(SimplePageRank.class);
 			conf.setOutputKeyClass(Text.class);
 	        conf.setOutputValueClass(Text.class);
@@ -48,15 +59,22 @@ public class BlockPageRank {
 	        long totalIteration = job.getCounters()
 					.findCounter(Counter.totalIteration).getValue();
 	        averageResidual = (float)curr_residual/ Constant.blockPrecision/Constant.blockNumber;
+	        //residual.add(averageResidual);
 	        BufferedWriter out = new BufferedWriter
 			         (new FileWriter(Constant.BlockOuput, true));
 	        out.newLine();
 	        out.write("Iteration " + iteration + " avg error " + averageResidual);
+	        //averageIteration.add(totalIteration*1.0f/Constant.blockNumber);
 	        float avgIteration = totalIteration*1.0f/Constant.blockNumber;
 	        out.newLine();
 	        out.write("Iteration " + iteration + " avg iteration " + avgIteration);
 	        iteration++;
 	        out.close();
 		}
+		//for (int i = 0; i<residual.size(); i++){
+		//	System.out.println("Iteration " + i + " avg error " + residual.get(i));
+		//	System.out.println("Iteration " + i + " avg iteration " + averageIteration.get(i));
+		//}
+
 	}
 }

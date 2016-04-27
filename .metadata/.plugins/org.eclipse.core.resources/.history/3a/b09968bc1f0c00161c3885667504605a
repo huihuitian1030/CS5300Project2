@@ -32,7 +32,7 @@ public class BlockPageRankMapper  extends MapReduceBase implements Mapper<LongWr
 			String[] outNodes = edges.split(",");
 			
 			for(String outNode : outNodes){
-				int curBlockID = EdgesFilter.blockIDofNodes(Integer.parseInt(outNode));
+				int curBlockID = blockIDofNodes(Integer.parseInt(outNode));
 				
 				if(curBlockID == blockID){
 					Text BE = new Text("BE " + String.valueOf(nodeID) +" "+ outNode);
@@ -44,5 +44,17 @@ public class BlockPageRankMapper  extends MapReduceBase implements Mapper<LongWr
 				
 			}
 		}
+		
+		
 	}
+	
+	public int blockIDofNodes(int nodeID){
+		int blockID = (int) Math.floor(nodeID / Constant.partitionSize);
+		long testBoundry = Constant.blockBoundries[blockID];
+		if(testBoundry > nodeID){
+			blockID--;
+		}
+		return blockID;
+	}
+
 }

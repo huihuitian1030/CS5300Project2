@@ -22,7 +22,7 @@ public class SimplePageRankReducer extends MapReduceBase
 		String edges = Constant.emptyEdgeList;
 		while (values.hasNext()) {
 			Text line = values.next();
-			String[] words = line.toString().split(Constant.parser);
+			String[] words = line.toString().split("\\s+");
 			
 			if (words[0].equals("PR")) {
 				pageRankStart = Float.parseFloat(words[1]);
