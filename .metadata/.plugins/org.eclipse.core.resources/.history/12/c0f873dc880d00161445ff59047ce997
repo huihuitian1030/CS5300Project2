@@ -1,15 +1,11 @@
 package p2;
 
 import java.io.*;
-
 /**
  * This class create two pre-filtered files, simpleSelectedEdge.txt for simple computation of page rank, 
- * blockSelectedEdges.txt for blocked computation of page rank. The netId is 0.976, the rejectMin is 0.8784
- * and the rejectLimit is 0.8884. 
- * The format of each line in the simpleSelectedEdge.txt is: src page_rank edgeList degree
- * The format of each line in the blockSelectedEdge.txt is: block src page_rank edgeList degree 
+ * blockSelectedEdges.txt for blocked computation of page rank. 
+ *
  */
-
 public class EdgesFilter {
 	
 	 

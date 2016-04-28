@@ -1,7 +1,5 @@
 package p2;
-/**
- * This class contains all the constant variables used in the project2. 
- */
+
 public class Constant {
 	protected static final String inputFile = "edges.txt";
 	protected static final String simpleInput = "simpleSelectedEdges.txt";

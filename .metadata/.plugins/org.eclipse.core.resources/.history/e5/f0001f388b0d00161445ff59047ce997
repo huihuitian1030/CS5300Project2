@@ -13,16 +13,9 @@ import org.apache.hadoop.mapred.RunningJob;
 import org.apache.hadoop.mapred.TextInputFormat;
 import org.apache.hadoop.mapred.TextOutputFormat;
 
-/**
- * This is the main class of simple computation of page rank. It will does 5 MapReduce passes. For each pass, it
- * create a new running job, set mapper and reducer class, set Text as output key and value classes. On the initial pass
- * use the pre-filtered file as input file, other pass use the output of the last pass as input. At the end of each pass, 
- * compute the average nodes residual error and write into the simpelPageRankOutput.txt.
- */
-
 public class SimplePageRank {
 	
-	// use a hadoop counter to record the total residual error and compute the average later. 
+	// use a hadoop counter to record the average residual error. 
 	protected static enum Counter {
         residual;
 	}
@@ -40,7 +33,7 @@ public class SimplePageRank {
 			JobConf conf = new JobConf(SimplePageRank.class);
 			conf.setOutputKeyClass(Text.class);
 	        conf.setOutputValueClass(Text.class);
-	        // Set Mapper and Reducer class
+	        
 	        conf.setMapperClass(SimplePageRankMapper.class);
 	        conf.setReducerClass(SimplePageRankReducer.class);
 	        
@@ -54,8 +47,6 @@ public class SimplePageRank {
 	        RunningJob job = JobClient.runJob(conf);
 	        long curr_residual = job.getCounters()
 					.findCounter(Counter.residual).getValue();
-	        
-	        //compute average nodes residual error
 	        residual[i] = (float)curr_residual/ Constant.precision/Constant.numberNodes;
 		}
 		for (int i = 0; i<Constant.iteration; i++){

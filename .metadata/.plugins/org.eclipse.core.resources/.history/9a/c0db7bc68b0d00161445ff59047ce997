@@ -54,7 +54,6 @@ public class SimplePageRank {
 	        RunningJob job = JobClient.runJob(conf);
 	        long curr_residual = job.getCounters()
 					.findCounter(Counter.residual).getValue();
-	        
 	        //compute average nodes residual error
 	        residual[i] = (float)curr_residual/ Constant.precision/Constant.numberNodes;
 		}

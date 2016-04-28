@@ -42,7 +42,6 @@ public class BlockPageRank {
 			JobConf conf = new JobConf(SimplePageRank.class);
 			conf.setOutputKeyClass(Text.class);
 	        conf.setOutputValueClass(Text.class);
-	        
 	        // Set Mapper and Reducer class
 	        conf.setMapperClass(BlockPageRankMapper.class);
 	        conf.setReducerClass(BlockPageRankReducer.class);
@@ -59,15 +58,11 @@ public class BlockPageRank {
 					.findCounter(Counter.residual).getValue();
 	        long totalIteration = job.getCounters()
 					.findCounter(Counter.totalIteration).getValue();
-	        
-	        //compute average block residual error
 	        averageResidual = (float)curr_residual/ Constant.blockPrecision/Constant.blockNumber;
 	        BufferedWriter out = new BufferedWriter
 			         (new FileWriter(Constant.BlockOuput, true));
 	        out.newLine();
 	        out.write("Iteration " + iteration + " avg error " + averageResidual);
-	        
-	        //compute average block iterations 
 	        float avgIteration = totalIteration*1.0f/Constant.blockNumber;
 	        out.newLine();
 	        out.write("Iteration " + iteration + " avg iteration " + avgIteration);
