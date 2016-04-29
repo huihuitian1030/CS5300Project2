@@ -1,0 +1,40 @@
+package p2;
+/**
+ * This class contains all the constant variables used in the project2. 
+ */
+public class Constant {
+	protected static final String inputFile = "edges.txt";
+	protected static final String simpleInput = "simpleSelectedEdges.txt";
+	protected static final String blockInput = "blockSelectedEdges.txt";	
+	protected static final String BlockOuput = "/Users/ishiamae/Documents/workspace5300/CS5300Project2/"
+			+ "CS5300Project2/blockPageRankOutput.txt";
+	protected static final String SimpleOuput = "/Users/ishiamae/Documents/workspace5300/CS5300Project2/"
+			+ "CS5300Project2/simplePageRankOutput.txt";
+	protected static final String space = " ";
+	protected static final String parser= "\\s+";
+	protected static final double netId = 0.976;
+	protected static double rejectMin = 0.9 * netId;
+	protected static double rejectLimit = rejectMin+ 0.01;;
+	protected static int numberNodes = 685230;
+	protected static float defaultPageRank = 1.0f/numberNodes;
+	protected static final String connection = ",";
+	protected static final float dampingFactor = 0.85f;
+	protected static final int iteration = 5; 
+	protected static final int precision = 10000;
+	protected static final long blockPrecision = 100000000000;
+	protected static final int blockNumber = 68;
+	protected static final String emptyEdgeList = "none";
+	protected static final float residualThreshold = 0.001f;
+	
+	protected static final long[] blockBoundries = {0, 10328, 20373, 30629, 40645,
+			50462, 60841, 70591, 80118, 90497, 100501, 110567, 120945,
+			130999, 140574, 150953, 161332, 171154, 181514, 191625, 202004,
+			212383, 222762, 232593, 242878, 252938, 263149, 273210, 283473,
+			293255, 303043, 313370, 323522, 333883, 343663, 353645, 363929,
+			374236, 384554, 394929, 404712, 414617, 424747, 434707, 444489,
+			454285, 464398, 474196, 484050, 493968, 503752, 514131, 524510,
+			534709, 545088, 555467, 565846, 576225, 586604, 596585, 606367,
+			616148, 626448, 636240, 646022, 655804, 665666, 675448, 685230 };
+	
+	protected static final int partitionSize = 10000;
+}

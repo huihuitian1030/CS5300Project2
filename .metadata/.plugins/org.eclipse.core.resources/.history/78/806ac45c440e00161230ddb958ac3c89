@@ -1,0 +1,79 @@
+package p2;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapred.FileInputFormat;
+import org.apache.hadoop.mapred.FileOutputFormat;
+import org.apache.hadoop.mapred.JobClient;
+import org.apache.hadoop.mapred.JobConf;
+import org.apache.hadoop.mapred.RunningJob;
+import org.apache.hadoop.mapred.TextInputFormat;
+import org.apache.hadoop.mapred.TextOutputFormat;
+
+/**
+ * This is the main class of blocked computation of page rank. it continue running MapReduce passes until 
+ * the average relative error is below .001. For each pass, it create a new running job, set mapper and reducer class, 
+ * set Text as output key and value classes. On the initial pass use the pre-filtered file as input file, 
+ * other pass use the output of the last pass as input. At the end of each pass,compute the average block residual error
+ * and average block iterations, write them into the blockedPageRankOutput.txt.
+ */
+
+public class BlockPageRank {
+	
+	// use a hadoop counter to record the total residual error and total Iteration numbers. Compute the average
+	// residual error and average iteration at the end.
+	protected static enum Counter {
+        residual, totalIteration;
+	}
+	
+	public static void main (String [] args) throws IOException{
+		if (args.length!= 2){
+			System.out.println("invalid input");
+			System.exit(1);
+		}
+		String inputPath = args[0];
+		String outputPath =args[1];
+		float averageResidual = 1.0f;
+		int iteration = 0;
+		while(averageResidual > Constant.residualThreshold) {
+			JobConf conf = new JobConf(SimplePageRank.class);
+			conf.setOutputKeyClass(Text.class);
+	        conf.setOutputValueClass(Text.class);
+	        
+	        // Set Mapper and Reducer class
+	        conf.setMapperClass(BlockPageRankMapper.class);
+	        conf.setReducerClass(BlockPageRankReducer.class);
+	        
+	        conf.setInputFormat(TextInputFormat.class);
+	        conf.setOutputFormat(TextOutputFormat.class);
+	        if (iteration>0) {
+				inputPath = outputPath + "/output" + iteration;
+			}
+	        FileInputFormat.setInputPaths(conf, new Path(inputPath));
+	        FileOutputFormat.setOutputPath(conf, new Path(outputPath + "/output" + (iteration + 1)));
+	        RunningJob job = JobClient.runJob(conf);
+	        long curr_residual = job.getCounters()
+					.findCounter(Counter.residual).getValue();
+	        long totalIteration = job.getCounters()
+					.findCounter(Counter.totalIteration).getValue();
+	        
+	        //compute average block residual error
+	        averageResidual = (float)curr_residual/ Constant.blockPrecision/Constant.blockNumber;
+	        System.out.println("Iteration" + iteration + "avg error " + averageResidual);
+	        BufferedWriter out = new BufferedWriter
+			         (new FileWriter(Constant.BlockOuput, true));
+	        out.newLine();
+	        out.write("Iteration " + iteration + " avg error " + averageResidual);
+	        
+	        //compute average block iterations 
+	        float avgIteration = totalIteration*1.0f/Constant.blockNumber;
+	        out.newLine();
+	        out.write("Iteration " + iteration + " avg iteration " + avgIteration);
+	        iteration++;
+	        out.close();
+		}
+	}
+}

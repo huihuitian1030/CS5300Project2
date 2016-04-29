@@ -39,7 +39,7 @@ public class BlockPageRank {
 		float averageResidual = 1.0f;
 		int iteration = 0;
 		while(averageResidual > Constant.residualThreshold) {
-			JobConf conf = new JobConf(SimplePageRank.class);
+			JobConf conf = new JobConf(BlockPageRank.class);
 			conf.setOutputKeyClass(Text.class);
 	        conf.setOutputValueClass(Text.class);
 	        
@@ -61,7 +61,8 @@ public class BlockPageRank {
 					.findCounter(Counter.totalIteration).getValue();
 	        
 	        //compute average block residual error
-	        averageResidual = (float)curr_residual/ Constant.blockPrecision/Constant.blockNumber;
+	        averageResidual = (float) (curr_residual/ (1.0 * Constant.blockPrecision) / Constant.blockNumber);
+	        System.out.println("Iteration " + iteration + " avg error " + averageResidual);
 	        BufferedWriter out = new BufferedWriter
 			         (new FileWriter(Constant.BlockOuput, true));
 	        out.newLine();
@@ -69,6 +70,7 @@ public class BlockPageRank {
 	        
 	        //compute average block iterations 
 	        float avgIteration = totalIteration*1.0f/Constant.blockNumber;
+	        System.out.println("Iteration" + iteration + "avg iteration " + avgIteration);
 	        out.newLine();
 	        out.write("Iteration " + iteration + " avg iteration " + avgIteration);
 	        iteration++;

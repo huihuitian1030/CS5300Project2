@@ -1,0 +1,48 @@
+package p2;
+
+public class Node {
+	
+	private String nodeId;
+	private String outEdges;
+	private float pageRank;
+	private int degree;
+	
+	public Node(String nodeId){
+		this.nodeId = nodeId;
+		this.outEdges = Constant.emptyEdgeList;
+		this.pageRank = (float) 0.0;
+		this.degree = 0;
+	}
+	
+	public String getNodeId() {
+		return this.nodeId;
+	}
+	
+	public void setNodeId(String nodeId) {
+		this.nodeId = nodeId;
+	}
+	
+	public String getOutEdges() {
+		return this.outEdges;
+	}
+	
+	public void setOutEdges(String outEdges) {
+		this.outEdges = outEdges;
+	}
+	
+	public float getPageRank() {
+		return this.pageRank;
+	}
+	
+	public void setPageRank(float pageRank) {
+		this.pageRank = pageRank;
+	}
+	
+	public int getDegree() {
+		return this.degree;
+	}
+	
+	public void setDegree(int degree) {
+		this.degree = degree;
+	}
+}

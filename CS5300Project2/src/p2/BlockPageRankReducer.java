@@ -22,7 +22,7 @@ public class BlockPageRankReducer extends MapReduceBase
 	private HashMap<String, Node> nodeMap = new HashMap<String, Node>();
 	
 	private ArrayList<String> currNode = new ArrayList<String>();
-	private final float threshold = (float) 0.005;
+	private final float threshold = 0.001f;
 
 	@Override
 	public void reduce(Text key, Iterator<Text> values, OutputCollector<Text, Text> output, Reporter reporter)
@@ -37,14 +37,14 @@ public class BlockPageRankReducer extends MapReduceBase
 		
 		while (values.hasNext()) {
 			Text line = values.next();
-			String[] words = line.toString().split(" ");
+			String[] words = line.toString().split(Constant.parser);
 			
 			if (words[0].equals("PR")) {
 				String nodeId = words[1];
 				float initialPR = Float.parseFloat(words[2]);
 				Node node = new Node(nodeId);
 				node.setPageRank(initialPR);
-				if (words.length == 4) {
+				if (!words[3].equals(Constant.emptyEdgeList)) {
 					node.setOutEdges(words[3]);
 					node.setDegree(words[3].split(",").length);
 				}
@@ -67,7 +67,7 @@ public class BlockPageRankReducer extends MapReduceBase
 			}
 			
 			else if (words[0].equals("BC")) {
-				float bc = (float) 0.0;
+				float bc =0.0f;
 				if (BC.containsKey(words[2])) { bc = BC.get(words[2]); }
 				bc = bc + Float.parseFloat(words[3]);
 				BC.put(words[2], bc);
@@ -81,13 +81,15 @@ public class BlockPageRankReducer extends MapReduceBase
 			residualError = IterateBlockOnce();
 		}
 		
-		residualError = (float) 0.0;
+		residualError = 0.0f;
 		for (String nodeId : currNode) {
 			Node node = nodeMap.get(nodeId); 
 			float error = Math.abs(node.getPageRank() - pageRank.get(nodeId)) / pageRank.get(nodeId);
 			residualError = residualError + error;
 		}
 		residualError = residualError / currNode.size();
+		//System.out.println("curr node size:" +currNode.size() );
+		//System.out.println("pagerank size: " + pageRank.size());
 		
 		long residual = (long) Math.floor(residualError * Constant.blockPrecision);
 		reporter.getCounter(BlockPageRank.Counter.residual).increment(residual);
@@ -96,11 +98,12 @@ public class BlockPageRankReducer extends MapReduceBase
 		
 		for (String nodeId : currNode) {
 			Node node = nodeMap.get(nodeId);
-			Text out = new Text(nodeId + " " + pageRank.get(nodeId) + " " + node.getOutEdges() + " " + node.getDegree());
+			Text out = new Text(pageRank.get(nodeId) + " " + node.getOutEdges() + " " + node.getDegree());
+			key = new Text(nodeId);
 			output.collect(key, out);
 			int nodeNum = Integer.parseInt(nodeId);
 			if (nodeNum == lowestNodeId || nodeNum == secondLowestNodeId) {
-				outFile.write("Block: " + key.toString() + " Node: " + nodeId + " PageRank: " + pageRank.get(nodeId));
+				outFile.write("Block: " + EdgesFilter.blockIDofNodes(nodeNum) + " Node: " + nodeId + " PageRank: " + pageRank.get(nodeId));
 				outFile.newLine();
 			}
 		}
@@ -108,11 +111,12 @@ public class BlockPageRankReducer extends MapReduceBase
 	}
 	
 	public float IterateBlockOnce() {
-		float residualError = (float) 0.0;
+		float residualError =0.0f;
+		HashMap<String, Float> tempPRs = new HashMap<>();
 		
 		for (String nodeId : currNode) {
 			float startPR = pageRank.get(nodeId);
-			float endPR = (float) 0.0;
+			float endPR =0.0f;
 			
 			if (BE.containsKey(nodeId)) {
 				ArrayList<String> be = BE.get(nodeId);
@@ -126,9 +130,10 @@ public class BlockPageRankReducer extends MapReduceBase
 			
 			endPR = (Constant.dampingFactor * endPR) + (1 - Constant.dampingFactor) / Constant.numberNodes;
 			residualError = residualError + Math.abs(startPR - endPR) / endPR;
-			pageRank.put(nodeId, endPR);
+			tempPRs.put(nodeId, endPR);
 		}
 		
+		pageRank = tempPRs;
 		return residualError / currNode.size();
 	}
 	

@@ -5,7 +5,6 @@ package p2;
 public class Constant {
 	protected static final String inputFile = "edges.txt";
 	protected static final String simpleInput = "simpleSelectedEdges.txt";
-	protected static final String blockInput = "blockSelectedEdges.txt";	
 	protected static final String BlockOuput = "/Users/ishiamae/Documents/workspace5300/CS5300Project2/"
 			+ "CS5300Project2/blockPageRankOutput.txt";
 	protected static final String SimpleOuput = "/Users/ishiamae/Documents/workspace5300/CS5300Project2/"
@@ -21,7 +20,7 @@ public class Constant {
 	protected static final float dampingFactor = 0.85f;
 	protected static final int iteration = 5; 
 	protected static final int precision = 10000;
-	protected static final int blockPrecision = 100000;
+	protected static final long blockPrecision = 10000000000l;
 	protected static final int blockNumber = 68;
 	protected static final String emptyEdgeList = "none";
 	protected static final float residualThreshold = 0.001f;

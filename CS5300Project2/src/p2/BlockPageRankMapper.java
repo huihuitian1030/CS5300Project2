@@ -14,18 +14,18 @@ public class BlockPageRankMapper  extends MapReduceBase implements Mapper<LongWr
 	public void map(LongWritable key, Text value, OutputCollector<Text,Text> output,Reporter reporter) throws IOException{
 		
 		String[] token = value.toString().split(Constant.parser);
-		int blockID = Integer.parseInt(token[0]);
-		int nodeID = Integer.parseInt(token[1]);
-		
+		//int blockID = Integer.parseInt(token[0]);
+		int nodeID = Integer.parseInt(token[0]);
+		int blockID = EdgesFilter.blockIDofNodes(nodeID);
 		Text mappedKey = new Text(String.valueOf(blockID));
 		
-		float pageRank = Float.parseFloat(token[2]);
-		String edges = token[3];
-		int degree = Integer.parseInt(token[4]);
+		float pageRank = Float.parseFloat(token[1]);
+		String edges = token[2];
+		int degree = Integer.parseInt(token[3]);
 
-		Text newPR = new Text(String.valueOf(pageRank/degree));
+		Text newPR = new Text(String.valueOf((float)(pageRank/degree)));
 		
-		Text turpleList = new Text("PR "+ String.valueOf(nodeID) +" "+ String.valueOf(pageRank) + " " + edges);
+		Text turpleList = new Text("PR "+ String.valueOf(nodeID) +" "+ token[1] + " " + edges);
 		output.collect(mappedKey, turpleList);
 		
 		if(!edges.equals(Constant.emptyEdgeList)){
@@ -38,6 +38,7 @@ public class BlockPageRankMapper  extends MapReduceBase implements Mapper<LongWr
 					Text BE = new Text("BE " + String.valueOf(nodeID) +" "+ outNode);
 					output.collect(mappedKey, BE);
 				}else{
+					mappedKey = new Text(Integer.toString(curBlockID));
 					Text BC = new Text("BC " + String.valueOf(nodeID) +" " + outNode + " " + newPR);
 					output.collect(mappedKey, BC);
 				}

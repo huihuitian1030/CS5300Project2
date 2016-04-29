@@ -1,825 +1,1237 @@
 
-Block: 0 Node: 0 PageRank: 6.64887E-6
-Block: 0 Node: 1 PageRank: 2.4404962E-5
+Block: 0 Node: 0 PageRank: 1.0281983E-5
+Block: 0 Node: 1 PageRank: 5.3391715E-5
 
-Block: 1 Node: 10328 PageRank: 2.1890456E-7
-Block: 1 Node: 10329 PageRank: 2.3130916E-7
+Block: 1 Node: 10328 PageRank: 6.145578E-7
+Block: 1 Node: 10329 PageRank: 2.1890456E-7
 
-Block: 10 Node: 100502 PageRank: 1.1969599E-6
-Block: 10 Node: 100501 PageRank: 1.0171807E-6
+Block: 10 Node: 100501 PageRank: 1.0038078E-6
+Block: 10 Node: 100502 PageRank: 1.1777014E-6
 
-Block: 11 Node: 110568 PageRank: 1.7443785E-5
-Block: 11 Node: 110567 PageRank: 1.8880186E-4
+Block: 11 Node: 110568 PageRank: 2.1890456E-7
+Block: 11 Node: 110567 PageRank: 8.1748025E-5
 
-Block: 12 Node: 120946 PageRank: 6.779344E-7
-Block: 12 Node: 120945 PageRank: 8.213988E-7
+Block: 12 Node: 120945 PageRank: 8.226391E-7
+Block: 12 Node: 120946 PageRank: 6.7930995E-7
 
-Block: 13 Node: 131000 PageRank: 2.1890456E-7
-Block: 13 Node: 130999 PageRank: 2.1890456E-7
+Block: 13 Node: 130999 PageRank: 2.5649425E-7
+Block: 13 Node: 131000 PageRank: 2.5649425E-7
 
-Block: 14 Node: 140575 PageRank: 2.1890456E-7
-Block: 14 Node: 140574 PageRank: 1.8311945E-4
+Block: 14 Node: 140575 PageRank: 2.5649425E-7
+Block: 14 Node: 140574 PageRank: 0.0032843822
 
-Block: 15 Node: 150953 PageRank: 1.8422298E-4
-Block: 15 Node: 150954 PageRank: 1.8502174E-4
+Block: 15 Node: 150953 PageRank: 0.0032393679
+Block: 15 Node: 150954 PageRank: 0.0032642833
 
-Block: 16 Node: 161332 PageRank: 2.2845398E-7
-Block: 16 Node: 161333 PageRank: 2.2845398E-7
+Block: 16 Node: 161333 PageRank: 2.1890456E-7
+Block: 16 Node: 161332 PageRank: 2.1890456E-7
 
-Block: 17 Node: 171154 PageRank: 2.2595076E-7
-Block: 17 Node: 171155 PageRank: 2.2595076E-7
+Block: 17 Node: 171155 PageRank: 2.1890456E-7
+Block: 17 Node: 171154 PageRank: 2.1890456E-7
 
-Block: 18 Node: 181515 PageRank: 7.822523E-4
-Block: 18 Node: 181514 PageRank: 2.1890456E-7
+Block: 18 Node: 181514 PageRank: 2.484393E-7
+Block: 18 Node: 181515 PageRank: 7.446039E-4
 
-Block: 19 Node: 191625 PageRank: 3.2664215E-5
+Block: 19 Node: 191626 PageRank: 2.1890456E-7
+Block: 19 Node: 191625 PageRank: 3.145568E-5
+
+Block: 2 Node: 20373 PageRank: 2.1890456E-7
+Block: 2 Node: 20374 PageRank: 2.1890456E-7
+
+Block: 20 Node: 202005 PageRank: 4.8644074E-7
+Block: 20 Node: 202004 PageRank: 4.5884798E-7
+
+Block: 21 Node: 212384 PageRank: 2.1890456E-7
+Block: 21 Node: 212383 PageRank: 5.2003167E-4
+
+Block: 22 Node: 222763 PageRank: 2.2748E-7
+Block: 22 Node: 222762 PageRank: 2.2748E-7
+
+Block: 23 Node: 232593 PageRank: 2.1890456E-7
+Block: 23 Node: 232594 PageRank: 2.9593593E-7
+
+Block: 24 Node: 242878 PageRank: 3.075088E-7
+Block: 24 Node: 242879 PageRank: 2.1890456E-7
+
+Block: 25 Node: 252938 PageRank: 3.2172811E-6
+Block: 25 Node: 252939 PageRank: 4.8573764E-7
+
+Block: 26 Node: 263149 PageRank: 2.7059036E-7
+Block: 26 Node: 263150 PageRank: 2.1890456E-7
+
+Block: 27 Node: 273210 PageRank: 1.6208995E-5
+Block: 27 Node: 273211 PageRank: 2.1890456E-7
+
+Block: 28 Node: 283473 PageRank: 2.914564E-7
+Block: 28 Node: 283474 PageRank: 2.914564E-7
+
+Block: 29 Node: 293255 PageRank: 3.292221E-7
+Block: 29 Node: 293256 PageRank: 1.0243074E-6
+
+Block: 3 Node: 30629 PageRank: 2.6661453E-7
+Block: 3 Node: 30630 PageRank: 2.1890456E-7
+
+Block: 30 Node: 303043 PageRank: 2.6363847E-7
+Block: 30 Node: 303044 PageRank: 1.4047343E-6
+
+Block: 31 Node: 313370 PageRank: 4.2564778E-7
+Block: 31 Node: 313371 PageRank: 1.3616514E-5
+
+Block: 32 Node: 323522 PageRank: 3.3167362E-7
+Block: 32 Node: 323523 PageRank: 5.4969377E-7
+
+Block: 33 Node: 333884 PageRank: 2.1890456E-7
+Block: 33 Node: 333883 PageRank: 6.7963015E-6
+
+Block: 34 Node: 343663 PageRank: 3.9611308E-7
+Block: 34 Node: 343664 PageRank: 3.9611308E-7
+
+Block: 35 Node: 353645 PageRank: 1.79327E-6
+Block: 35 Node: 353646 PageRank: 9.437204E-7
+
+Block: 36 Node: 363929 PageRank: 4.0441887E-6
+Block: 36 Node: 363930 PageRank: 4.762149E-7
+
+Block: 37 Node: 374236 PageRank: 3.429505E-7
+Block: 37 Node: 374237 PageRank: 9.2621485E-6
+
+Block: 38 Node: 384554 PageRank: 8.082521E-5
+Block: 38 Node: 384555 PageRank: 6.458793E-6
+
+Block: 39 Node: 394929 PageRank: 2.0634136E-6
+Block: 39 Node: 394930 PageRank: 1.5279679E-6
+
+Block: 4 Node: 40646 PageRank: 2.255737E-7
+Block: 4 Node: 40645 PageRank: 2.255737E-7
+
+Block: 40 Node: 404712 PageRank: 6.3239105E-7
+Block: 40 Node: 404713 PageRank: 7.56437E-7
+
+Block: 41 Node: 414617 PageRank: 3.7004727E-7
+Block: 41 Node: 414618 PageRank: 3.7004727E-7
+
+Block: 42 Node: 424748 PageRank: 2.0083205E-6
+Block: 42 Node: 424747 PageRank: 1.1355601E-6
+
+Block: 43 Node: 434707 PageRank: 2.1890456E-7
+Block: 43 Node: 434708 PageRank: 3.73962E-7
+
+Block: 44 Node: 444489 PageRank: 5.248065E-7
+Block: 44 Node: 444490 PageRank: 2.1890456E-7
+
+Block: 45 Node: 454285 PageRank: 5.290194E-7
+Block: 45 Node: 454286 PageRank: 2.1890456E-7
+
+Block: 46 Node: 464398 PageRank: 3.2227618E-7
+Block: 46 Node: 464399 PageRank: 3.2227618E-7
+
+Block: 47 Node: 474196 PageRank: 4.4199646E-7
+Block: 47 Node: 474197 PageRank: 4.3442185E-7
+
+Block: 48 Node: 484050 PageRank: 1.7250557E-5
+Block: 48 Node: 484051 PageRank: 1.3027619E-5
+
+Block: 49 Node: 493968 PageRank: 3.443763E-7
+Block: 49 Node: 493969 PageRank: 2.451515E-6
+
+Block: 5 Node: 50463 PageRank: 0.011434293
+Block: 5 Node: 50462 PageRank: 0.011429477
+
+Block: 50 Node: 503752 PageRank: 7.9202067E-7
+Block: 50 Node: 503753 PageRank: 7.9202067E-7
+
+Block: 51 Node: 514132 PageRank: 3.4628447E-5
+Block: 51 Node: 514131 PageRank: 0.0015355728
+
+Block: 52 Node: 524511 PageRank: 6.556422E-7
+Block: 52 Node: 524510 PageRank: 6.0757055E-5
+
+Block: 53 Node: 534710 PageRank: 2.6852294E-7
+Block: 53 Node: 534709 PageRank: 0.008767557
+
+Block: 54 Node: 545088 PageRank: 8.744055E-4
+Block: 54 Node: 545089 PageRank: 2.1890456E-7
+
+Block: 55 Node: 555468 PageRank: 9.924872E-7
+Block: 55 Node: 555467 PageRank: 0.0029912384
+
+Block: 56 Node: 565846 PageRank: 2.1890456E-7
+Block: 56 Node: 565847 PageRank: 2.1890456E-7
+
+Block: 57 Node: 576225 PageRank: 1.1002592E-5
+Block: 57 Node: 576226 PageRank: 2.1890456E-7
+
+Block: 58 Node: 586604 PageRank: 2.8066768E-4
+Block: 58 Node: 586605 PageRank: 3.2131845E-7
+
+Block: 59 Node: 596585 PageRank: 1.3294571E-6
+Block: 59 Node: 596586 PageRank: 1.392526E-6
+
+Block: 6 Node: 60841 PageRank: 1.874015E-6
+Block: 6 Node: 60842 PageRank: 2.1890456E-7
+
+Block: 60 Node: 606367 PageRank: 3.9696096E-7
+Block: 60 Node: 606368 PageRank: 2.1890456E-7
+
+Block: 61 Node: 616149 PageRank: 2.1890456E-7
+Block: 61 Node: 616148 PageRank: 9.526868E-7
+
+Block: 62 Node: 626448 PageRank: 2.1890456E-7
+Block: 62 Node: 626449 PageRank: 2.5840703E-7
+
+Block: 63 Node: 636241 PageRank: 2.5649425E-7
+Block: 63 Node: 636240 PageRank: 2.5434625E-7
+
+Block: 64 Node: 646023 PageRank: 4.1107225E-7
+Block: 64 Node: 646022 PageRank: 5.6838354E-7
+
+Block: 65 Node: 655805 PageRank: 2.1890456E-7
+Block: 65 Node: 655804 PageRank: 2.5434625E-7
+
+Block: 66 Node: 665667 PageRank: 2.484393E-7
+Block: 66 Node: 665666 PageRank: 4.6699648E-7
+
+Block: 67 Node: 675449 PageRank: 4.873312E-6
+Block: 67 Node: 675448 PageRank: 2.1890456E-7
+
+Block: 7 Node: 70592 PageRank: 2.255737E-7
+Block: 7 Node: 70591 PageRank: 2.255737E-7
+
+Block: 8 Node: 80119 PageRank: 6.2489653E-7
+Block: 8 Node: 80118 PageRank: 3.3778193E-7
+
+Block: 9 Node: 90497 PageRank: 2.1890456E-7
+Block: 9 Node: 90498 PageRank: 1.2873447E-5
+
+Iteration 0 avg error 3.1995914
+Iteration 0 avg iteration 16.514706
+Block: 0 Node: 0 PageRank: 8.31302E-6
+Block: 0 Node: 1 PageRank: 4.1532636E-5
+
+Block: 1 Node: 10328 PageRank: 3.8593925E-7
+Block: 1 Node: 10329 PageRank: 2.1890456E-7
+
+Block: 10 Node: 100501 PageRank: 9.943043E-7
+Block: 10 Node: 100502 PageRank: 1.1662953E-6
+
+Block: 11 Node: 110568 PageRank: 2.1890456E-7
+Block: 11 Node: 110567 PageRank: 9.3620335E-4
+
+Block: 12 Node: 120945 PageRank: 8.095096E-7
+Block: 12 Node: 120946 PageRank: 6.689392E-7
+
+Block: 13 Node: 130999 PageRank: 2.2454302E-7
+Block: 13 Node: 131000 PageRank: 2.2454302E-7
+
+Block: 14 Node: 140574 PageRank: 9.548039E-4
+Block: 14 Node: 140575 PageRank: 2.2454302E-7
+
+Block: 15 Node: 150954 PageRank: 9.855586E-4
+Block: 15 Node: 150953 PageRank: 5.821908E-4
+
+Block: 16 Node: 161333 PageRank: 2.1890456E-7
+Block: 16 Node: 161332 PageRank: 2.1890456E-7
+
+Block: 17 Node: 171155 PageRank: 2.1890456E-7
+Block: 17 Node: 171154 PageRank: 2.1890456E-7
+
+Block: 18 Node: 181514 PageRank: 2.2333477E-7
+Block: 18 Node: 181515 PageRank: 7.443533E-4
+
+Block: 19 Node: 191626 PageRank: 2.1890456E-7
+Block: 19 Node: 191625 PageRank: 7.9540354E-5
+
+Block: 2 Node: 20373 PageRank: 2.1890456E-7
+Block: 2 Node: 20374 PageRank: 2.1890456E-7
+
+Block: 20 Node: 202004 PageRank: 4.5883763E-7
+Block: 20 Node: 202005 PageRank: 4.864313E-7
+
+Block: 21 Node: 212384 PageRank: 2.1890456E-7
+Block: 21 Node: 212383 PageRank: 3.0270132E-4
+
+Block: 22 Node: 222762 PageRank: 2.249628E-7
+Block: 22 Node: 222763 PageRank: 2.249628E-7
+
+Block: 23 Node: 232593 PageRank: 2.1890456E-7
+Block: 23 Node: 232594 PageRank: 2.9593593E-7
+
+Block: 24 Node: 242879 PageRank: 2.1890456E-7
+Block: 24 Node: 242878 PageRank: 7.316939E-7
+
+Block: 25 Node: 252938 PageRank: 3.2104913E-6
+Block: 25 Node: 252939 PageRank: 4.8516597E-7
+
+Block: 26 Node: 263150 PageRank: 2.1890456E-7
+Block: 26 Node: 263149 PageRank: 2.3105072E-7
+
+Block: 27 Node: 273210 PageRank: 1.6200758E-5
+Block: 27 Node: 273211 PageRank: 2.1890456E-7
+
+Block: 28 Node: 283474 PageRank: 2.7579452E-7
+Block: 28 Node: 283473 PageRank: 2.7579452E-7
+
+Block: 29 Node: 293255 PageRank: 2.7963398E-7
+Block: 29 Node: 293256 PageRank: 8.045514E-7
+
+Block: 3 Node: 30630 PageRank: 2.1890456E-7
+Block: 3 Node: 30629 PageRank: 2.3323612E-7
+
+Block: 30 Node: 303044 PageRank: 9.645803E-7
+Block: 30 Node: 303043 PageRank: 2.3413054E-7
+
+Block: 31 Node: 313371 PageRank: 8.139338E-6
+Block: 31 Node: 313370 PageRank: 2.5478946E-7
+
+Block: 32 Node: 323522 PageRank: 2.3581991E-7
+Block: 32 Node: 323523 PageRank: 3.7222242E-7
+
+Block: 33 Node: 333884 PageRank: 2.1890456E-7
+Block: 33 Node: 333883 PageRank: 5.7608922E-6
+
+Block: 34 Node: 343663 PageRank: 3.9611308E-7
+Block: 34 Node: 343664 PageRank: 3.9611308E-7
+
+Block: 35 Node: 353645 PageRank: 1.4431557E-6
+Block: 35 Node: 353646 PageRank: 9.43586E-7
+
+Block: 36 Node: 363929 PageRank: 5.9919803E-6
+Block: 36 Node: 363930 PageRank: 3.8428533E-7
+
+Block: 37 Node: 374236 PageRank: 2.3751144E-7
+Block: 37 Node: 374237 PageRank: 9.2334985E-6
+
+Block: 38 Node: 384555 PageRank: 5.4230836E-6
+Block: 38 Node: 384554 PageRank: 6.444708E-5
+
+Block: 39 Node: 394929 PageRank: 2.1515496E-6
+Block: 39 Node: 394930 PageRank: 1.3423229E-6
+
+Block: 4 Node: 40646 PageRank: 5.24724E-5
+Block: 4 Node: 40645 PageRank: 5.24724E-5
+
+Block: 40 Node: 404712 PageRank: 3.0782076E-7
+Block: 40 Node: 404713 PageRank: 4.805522E-7
+
+Block: 41 Node: 414617 PageRank: 3.7004725E-7
+Block: 41 Node: 414618 PageRank: 3.7004725E-7
+
+Block: 42 Node: 424748 PageRank: 1.967503E-6
+Block: 42 Node: 424747 PageRank: 1.1185467E-6
+
+Block: 43 Node: 434707 PageRank: 2.1890456E-7
+Block: 43 Node: 434708 PageRank: 6.4330266E-7
+
+Block: 44 Node: 444490 PageRank: 2.1890456E-7
+Block: 44 Node: 444489 PageRank: 2.991614E-7
+
+Block: 45 Node: 454285 PageRank: 3.5018985E-7
+Block: 45 Node: 454286 PageRank: 2.1890456E-7
+
+Block: 46 Node: 464398 PageRank: 2.3792494E-7
+Block: 46 Node: 464399 PageRank: 2.3792494E-7
+
+Block: 47 Node: 474196 PageRank: 4.6694657E-7
+Block: 47 Node: 474197 PageRank: 4.2751918E-7
+
+Block: 48 Node: 484051 PageRank: 8.188745E-6
+Block: 48 Node: 484050 PageRank: 1.054124E-5
+
+Block: 49 Node: 493969 PageRank: 9.865192E-7
+Block: 49 Node: 493968 PageRank: 2.4076076E-7
+
+Block: 5 Node: 50463 PageRank: 0.0029249536
+Block: 5 Node: 50462 PageRank: 0.0029173936
+
+Block: 50 Node: 503752 PageRank: 7.9120537E-7
+Block: 50 Node: 503753 PageRank: 7.9120537E-7
+
+Block: 51 Node: 514131 PageRank: 9.1242173E-4
+Block: 51 Node: 514132 PageRank: 2.4196359E-5
+
+Block: 52 Node: 524511 PageRank: 2.0011767E-6
+Block: 52 Node: 524510 PageRank: 2.929262E-4
+
+Block: 53 Node: 534710 PageRank: 2.2700631E-7
+Block: 53 Node: 534709 PageRank: 0.00484092
+
+Block: 54 Node: 545089 PageRank: 2.1890456E-7
+Block: 54 Node: 545088 PageRank: 3.5666677E-4
+
+Block: 55 Node: 555467 PageRank: 7.5861E-4
+Block: 55 Node: 555468 PageRank: 7.8221007E-7
+
+Block: 56 Node: 565847 PageRank: 2.1890456E-7
+Block: 56 Node: 565846 PageRank: 2.1890456E-7
+
+Block: 57 Node: 576225 PageRank: 4.6849837E-6
+Block: 57 Node: 576226 PageRank: 2.1890456E-7
+
+Block: 58 Node: 586605 PageRank: 2.7626183E-7
+Block: 58 Node: 586604 PageRank: 2.5242183E-4
+
+Block: 59 Node: 596586 PageRank: 1.3853405E-6
+Block: 59 Node: 596585 PageRank: 1.3348916E-6
+
+Block: 6 Node: 60842 PageRank: 2.1890456E-7
+Block: 6 Node: 60841 PageRank: 8.470694E-6
+
+Block: 60 Node: 606368 PageRank: 2.1890456E-7
+Block: 60 Node: 606367 PageRank: 3.262457E-7
+
+Block: 61 Node: 616149 PageRank: 2.1890456E-7
+Block: 61 Node: 616148 PageRank: 8.2441596E-7
+
+Block: 62 Node: 626448 PageRank: 2.1890456E-7
+Block: 62 Node: 626449 PageRank: 2.5840703E-7
+
+Block: 63 Node: 636240 PageRank: 2.2422081E-7
+Block: 63 Node: 636241 PageRank: 2.2454302E-7
+
+Block: 64 Node: 646022 PageRank: 5.682466E-7
+Block: 64 Node: 646023 PageRank: 4.1097078E-7
+
+Block: 65 Node: 655804 PageRank: 2.2422081E-7
+Block: 65 Node: 655805 PageRank: 2.1890456E-7
+
+Block: 66 Node: 665666 PageRank: 2.5611834E-7
+Block: 66 Node: 665667 PageRank: 2.2333477E-7
+
+Block: 67 Node: 675448 PageRank: 2.1890456E-7
+Block: 67 Node: 675449 PageRank: 4.904773E-6
+
+Block: 7 Node: 70591 PageRank: 5.24724E-5
+Block: 7 Node: 70592 PageRank: 5.24724E-5
+
+Block: 8 Node: 80118 PageRank: 2.668895E-7
+Block: 8 Node: 80119 PageRank: 4.937456E-7
+
+Block: 9 Node: 90498 PageRank: 8.75443E-6
+Block: 9 Node: 90497 PageRank: 2.1890456E-7
+
+Iteration 1 avg error 0.026955642
+Iteration 1 avg iteration 5.2352943
+Block: 0 Node: 0 PageRank: 9.414394E-6
+Block: 0 Node: 1 PageRank: 4.16624E-5
+
+Block: 1 Node: 10329 PageRank: 2.1890456E-7
+Block: 1 Node: 10328 PageRank: 3.7172006E-7
+
+Block: 10 Node: 100501 PageRank: 9.932526E-7
+Block: 10 Node: 100502 PageRank: 1.1650266E-6
+
+Block: 11 Node: 110567 PageRank: 3.860699E-4
+Block: 11 Node: 110568 PageRank: 2.1890456E-7
+
+Block: 12 Node: 120946 PageRank: 6.613194E-7
+Block: 12 Node: 120945 PageRank: 7.999238E-7
+
+Block: 13 Node: 131000 PageRank: 2.2454302E-7
+Block: 13 Node: 130999 PageRank: 2.2454302E-7
+
+Block: 14 Node: 140575 PageRank: 2.2454302E-7
+Block: 14 Node: 140574 PageRank: 9.153957E-4
+
+Block: 15 Node: 150953 PageRank: 7.2175026E-4
+Block: 15 Node: 150954 PageRank: 0.0018069573
+
+Block: 16 Node: 161332 PageRank: 2.1890456E-7
+Block: 16 Node: 161333 PageRank: 2.1890456E-7
+
+Block: 17 Node: 171155 PageRank: 2.1890456E-7
+Block: 17 Node: 171154 PageRank: 2.1890456E-7
+
+Block: 18 Node: 181514 PageRank: 2.2333477E-7
+Block: 18 Node: 181515 PageRank: 7.440666E-4
+
+Block: 19 Node: 191626 PageRank: 2.1890456E-7
+Block: 19 Node: 191625 PageRank: 1.899515E-4
+
+Block: 2 Node: 20373 PageRank: 2.1890456E-7
+Block: 2 Node: 20374 PageRank: 2.1890456E-7
+
+Block: 20 Node: 202004 PageRank: 4.5883706E-7
+Block: 20 Node: 202005 PageRank: 4.864308E-7
+
+Block: 21 Node: 212384 PageRank: 2.1890456E-7
+Block: 21 Node: 212383 PageRank: 8.917022E-4
+
+Block: 22 Node: 222762 PageRank: 2.249628E-7
+Block: 22 Node: 222763 PageRank: 2.249628E-7
+
+Block: 23 Node: 232593 PageRank: 2.1890456E-7
+Block: 23 Node: 232594 PageRank: 2.9593593E-7
+
+Block: 24 Node: 242879 PageRank: 2.1890456E-7
+Block: 24 Node: 242878 PageRank: 7.9365003E-7
+
+Block: 25 Node: 252938 PageRank: 3.2076732E-6
+Block: 25 Node: 252939 PageRank: 4.849347E-7
+
+Block: 26 Node: 263150 PageRank: 2.1890456E-7
+Block: 26 Node: 263149 PageRank: 1.0053511E-5
+
+Block: 27 Node: 273210 PageRank: 1.6199114E-5
+Block: 27 Node: 273211 PageRank: 2.1890456E-7
+
+Block: 28 Node: 283473 PageRank: 2.5641108E-7
+Block: 28 Node: 283474 PageRank: 2.5641108E-7
+
+Block: 29 Node: 293255 PageRank: 2.7427893E-7
+Block: 29 Node: 293256 PageRank: 3.8766607E-6
+
+Block: 3 Node: 30630 PageRank: 2.1890456E-7
+Block: 3 Node: 30629 PageRank: 2.3323611E-7
+
+Block: 30 Node: 303043 PageRank: 2.2937496E-7
+Block: 30 Node: 303044 PageRank: 4.8472666E-6
+
+Block: 31 Node: 313370 PageRank: 2.5478946E-7
+Block: 31 Node: 313371 PageRank: 1.3157382E-5
+
+Block: 32 Node: 323522 PageRank: 2.3581991E-7
+Block: 32 Node: 323523 PageRank: 3.324242E-7
+
+Block: 33 Node: 333884 PageRank: 2.1890456E-7
+Block: 33 Node: 333883 PageRank: 8.187207E-6
+
+Block: 34 Node: 343663 PageRank: 2.5997192E-6
+Block: 34 Node: 343664 PageRank: 4.200214E-7
+
+Block: 35 Node: 353645 PageRank: 1.5078958E-6
+Block: 35 Node: 353646 PageRank: 9.43523E-7
+
+Block: 36 Node: 363929 PageRank: 5.9570366E-6
+Block: 36 Node: 363930 PageRank: 3.6652636E-7
+
+Block: 37 Node: 374236 PageRank: 2.3751144E-7
+Block: 37 Node: 374237 PageRank: 9.215995E-6
+
+Block: 38 Node: 384555 PageRank: 5.198906E-6
+Block: 38 Node: 384554 PageRank: 6.4349566E-5
+
+Block: 39 Node: 394929 PageRank: 2.1819146E-6
+Block: 39 Node: 394930 PageRank: 1.3520233E-6
+
+Block: 4 Node: 40646 PageRank: 1.3585628E-5
+Block: 4 Node: 40645 PageRank: 1.3585628E-5
+
+Block: 40 Node: 404712 PageRank: 3.0782076E-7
+Block: 40 Node: 404713 PageRank: 4.805522E-7
+
+Block: 41 Node: 414617 PageRank: 3.7004725E-7
+Block: 41 Node: 414618 PageRank: 3.7004725E-7
+
+Block: 42 Node: 424748 PageRank: 1.9495335E-6
+Block: 42 Node: 424747 PageRank: 1.1113167E-6
+
+Block: 43 Node: 434707 PageRank: 2.1890456E-7
+Block: 43 Node: 434708 PageRank: 4.0553243E-7
+
+Block: 44 Node: 444490 PageRank: 2.1890456E-7
+Block: 44 Node: 444489 PageRank: 3.5546503E-7
+
+Block: 45 Node: 454285 PageRank: 3.4943923E-7
+Block: 45 Node: 454286 PageRank: 2.1890456E-7
+
+Block: 46 Node: 464398 PageRank: 2.3498417E-7
+Block: 46 Node: 464399 PageRank: 2.3498417E-7
+
+Block: 47 Node: 474196 PageRank: 3.9812707E-7
+Block: 47 Node: 474197 PageRank: 4.325061E-7
+
+Block: 48 Node: 484050 PageRank: 1.0658477E-5
+Block: 48 Node: 484051 PageRank: 8.269918E-6
+
+Block: 49 Node: 493969 PageRank: 9.862378E-7
+Block: 49 Node: 493968 PageRank: 2.4056902E-7
+
+Block: 5 Node: 50463 PageRank: 0.0050802976
+Block: 5 Node: 50462 PageRank: 0.0048189545
+
+Block: 50 Node: 503752 PageRank: 7.910469E-7
+Block: 50 Node: 503753 PageRank: 7.910469E-7
+
+Block: 51 Node: 514131 PageRank: 9.7579183E-4
+Block: 51 Node: 514132 PageRank: 2.239695E-5
+
+Block: 52 Node: 524510 PageRank: 2.2823882E-4
+Block: 52 Node: 524511 PageRank: 1.4226538E-6
+
+Block: 53 Node: 534710 PageRank: 4.185448E-6
+Block: 53 Node: 534709 PageRank: 0.006436448
+
+Block: 54 Node: 545088 PageRank: 3.0894854E-4
+Block: 54 Node: 545089 PageRank: 2.1890456E-7
+
+Block: 55 Node: 555468 PageRank: 7.692023E-7
+Block: 55 Node: 555467 PageRank: 0.0015105343
+
+Block: 56 Node: 565846 PageRank: 2.1890456E-7
+Block: 56 Node: 565847 PageRank: 2.1890456E-7
+
+Block: 57 Node: 576225 PageRank: 9.570959E-6
+Block: 57 Node: 576226 PageRank: 2.1890456E-7
+
+Block: 58 Node: 586604 PageRank: 2.499119E-4
+Block: 58 Node: 586605 PageRank: 2.76198E-7
+
+Block: 59 Node: 596586 PageRank: 1.3857358E-6
+Block: 59 Node: 596585 PageRank: 1.3339364E-6
+
+Block: 6 Node: 60841 PageRank: 7.0642104E-6
+Block: 6 Node: 60842 PageRank: 2.1890456E-7
+
+Block: 60 Node: 606367 PageRank: 2.9674487E-7
+Block: 60 Node: 606368 PageRank: 2.1890456E-7
+
+Block: 61 Node: 616149 PageRank: 2.1890456E-7
+Block: 61 Node: 616148 PageRank: 8.2421974E-7
+
+Block: 62 Node: 626448 PageRank: 2.1890456E-7
+Block: 62 Node: 626449 PageRank: 2.5840703E-7
+
+Block: 63 Node: 636241 PageRank: 2.2454302E-7
+Block: 63 Node: 636240 PageRank: 2.2422081E-7
+
+Block: 64 Node: 646022 PageRank: 5.6821915E-7
+Block: 64 Node: 646023 PageRank: 4.1095046E-7
+
+Block: 65 Node: 655805 PageRank: 2.1890456E-7
+Block: 65 Node: 655804 PageRank: 2.2422081E-7
+
+Block: 66 Node: 665667 PageRank: 2.2333477E-7
+Block: 66 Node: 665666 PageRank: 2.5611834E-7
+
+Block: 67 Node: 675449 PageRank: 4.8901256E-6
+Block: 67 Node: 675448 PageRank: 2.1890456E-7
+
+Block: 7 Node: 70592 PageRank: 1.3585628E-5
+Block: 7 Node: 70591 PageRank: 1.3585628E-5
+
+Block: 8 Node: 80119 PageRank: 4.9022566E-7
+Block: 8 Node: 80118 PageRank: 2.6498682E-7
+
+Block: 9 Node: 90497 PageRank: 2.1890456E-7
+Block: 9 Node: 90498 PageRank: 8.775516E-6
+
+Iteration 2 avg error 0.013301869
+Iteration 2 avg iteration 3.9117646
+Block: 0 Node: 0 PageRank: 1.763443E-5
+Block: 0 Node: 1 PageRank: 4.1787018E-5
+
+Block: 1 Node: 10329 PageRank: 2.1890456E-7
+Block: 1 Node: 10328 PageRank: 3.5726944E-7
+
+Block: 10 Node: 100501 PageRank: 9.931617E-7
+Block: 10 Node: 100502 PageRank: 1.1649171E-6
+
+Block: 11 Node: 110567 PageRank: 4.6650355E-4
+Block: 11 Node: 110568 PageRank: 2.1890456E-7
+
+Block: 12 Node: 120946 PageRank: 6.590909E-7
+Block: 12 Node: 120945 PageRank: 7.971101E-7
+
+Block: 13 Node: 131000 PageRank: 2.2454302E-7
+Block: 13 Node: 130999 PageRank: 2.2454302E-7
+
+Block: 14 Node: 140574 PageRank: 8.307409E-4
+Block: 14 Node: 140575 PageRank: 2.2454302E-7
+
+Block: 15 Node: 150954 PageRank: 0.0010319591
+Block: 15 Node: 150953 PageRank: 6.2972767E-4
+
+Block: 16 Node: 161332 PageRank: 2.1890456E-7
+Block: 16 Node: 161333 PageRank: 2.1890456E-7
+
+Block: 17 Node: 171155 PageRank: 2.1890456E-7
+Block: 17 Node: 171154 PageRank: 2.1890456E-7
+
+Block: 18 Node: 181514 PageRank: 2.2333477E-7
+Block: 18 Node: 181515 PageRank: 7.439719E-4
+
+Block: 19 Node: 191626 PageRank: 2.1890456E-7
+Block: 19 Node: 191625 PageRank: 8.62784E-5
+
+Block: 2 Node: 20373 PageRank: 2.1890456E-7
+Block: 2 Node: 20374 PageRank: 2.1890456E-7
+
+Block: 20 Node: 202004 PageRank: 4.5883695E-7
+Block: 20 Node: 202005 PageRank: 4.8643074E-7
+
+Block: 21 Node: 212384 PageRank: 2.1890456E-7
+Block: 21 Node: 212383 PageRank: 7.4080226E-4
+
+Block: 22 Node: 222762 PageRank: 2.249628E-7
+Block: 22 Node: 222763 PageRank: 2.249628E-7
+
+Block: 23 Node: 232593 PageRank: 2.1890456E-7
+Block: 23 Node: 232594 PageRank: 2.9593593E-7
+
+Block: 24 Node: 242878 PageRank: 6.497177E-7
+Block: 24 Node: 242879 PageRank: 2.1890456E-7
+
+Block: 25 Node: 252938 PageRank: 3.2057485E-6
+Block: 25 Node: 252939 PageRank: 4.8477074E-7
+
+Block: 26 Node: 263149 PageRank: 3.1935995E-6
+Block: 26 Node: 263150 PageRank: 2.1890456E-7
+
+Block: 27 Node: 273210 PageRank: 1.6198888E-5
+Block: 27 Node: 273211 PageRank: 2.1890456E-7
+
+Block: 28 Node: 283474 PageRank: 2.557109E-7
+Block: 28 Node: 283473 PageRank: 2.557109E-7
+
+Block: 29 Node: 293255 PageRank: 2.7177703E-7
+Block: 29 Node: 293256 PageRank: 3.6296428E-6
+
+Block: 3 Node: 30629 PageRank: 2.3323611E-7
+Block: 3 Node: 30630 PageRank: 2.1890456E-7
+
+Block: 30 Node: 303043 PageRank: 2.2892627E-7
+Block: 30 Node: 303044 PageRank: 2.4133092E-6
+
+Block: 31 Node: 313371 PageRank: 9.684394E-6
+Block: 31 Node: 313370 PageRank: 2.5478946E-7
+
+Block: 32 Node: 323522 PageRank: 2.3581991E-7
+Block: 32 Node: 323523 PageRank: 3.2256204E-7
+
+Block: 33 Node: 333884 PageRank: 2.1890456E-7
+Block: 33 Node: 333883 PageRank: 6.7540846E-6
+
+Block: 34 Node: 343663 PageRank: 1.9098873E-6
+Block: 34 Node: 343664 PageRank: 3.632819E-7
+
+Block: 35 Node: 353645 PageRank: 1.6154235E-6
+Block: 35 Node: 353646 PageRank: 9.4351304E-7
+
+Block: 36 Node: 363929 PageRank: 6.613164E-6
+Block: 36 Node: 363930 PageRank: 3.6224594E-7
+
+Block: 37 Node: 374236 PageRank: 2.3751144E-7
+Block: 37 Node: 374237 PageRank: 9.213177E-6
+
+Block: 38 Node: 384555 PageRank: 5.1913707E-6
+Block: 38 Node: 384554 PageRank: 6.325427E-5
+
+Block: 39 Node: 394929 PageRank: 2.1721808E-6
+Block: 39 Node: 394930 PageRank: 1.3401616E-6
+
+Block: 4 Node: 40646 PageRank: 2.343532E-5
+Block: 4 Node: 40645 PageRank: 2.343532E-5
+
+Block: 40 Node: 404712 PageRank: 3.0782076E-7
+Block: 40 Node: 404713 PageRank: 4.805522E-7
+
+Block: 41 Node: 414617 PageRank: 3.7004725E-7
+Block: 41 Node: 414618 PageRank: 3.7004725E-7
+
+Block: 42 Node: 424748 PageRank: 1.9387926E-6
+Block: 42 Node: 424747 PageRank: 1.1100758E-6
+
+Block: 43 Node: 434707 PageRank: 2.1890456E-7
+Block: 43 Node: 434708 PageRank: 4.0433662E-7
+
+Block: 44 Node: 444490 PageRank: 2.1890456E-7
+Block: 44 Node: 444489 PageRank: 3.535867E-7
+
+Block: 45 Node: 454285 PageRank: 3.4977325E-7
+Block: 45 Node: 454286 PageRank: 2.1890456E-7
+
+Block: 46 Node: 464398 PageRank: 5.153738E-7
+Block: 46 Node: 464399 PageRank: 5.153738E-7
+
+Block: 47 Node: 474196 PageRank: 3.8519025E-7
+Block: 47 Node: 474197 PageRank: 4.3299826E-7
+
+Block: 48 Node: 484051 PageRank: 8.263882E-6
+Block: 48 Node: 484050 PageRank: 1.0686296E-5
+
+Block: 49 Node: 493968 PageRank: 2.40541E-7
+Block: 49 Node: 493969 PageRank: 9.862374E-7
+
+Block: 5 Node: 50463 PageRank: 0.0036666375
+Block: 5 Node: 50462 PageRank: 0.0036002162
+
+Block: 50 Node: 503752 PageRank: 7.910067E-7
+Block: 50 Node: 503753 PageRank: 7.910067E-7
+
+Block: 51 Node: 514132 PageRank: 2.1917585E-5
+Block: 51 Node: 514131 PageRank: 9.390367E-4
+
+Block: 52 Node: 524510 PageRank: 2.686707E-4
+Block: 52 Node: 524511 PageRank: 1.6586044E-6
+
+Block: 53 Node: 534710 PageRank: 2.4123256E-6
+Block: 53 Node: 534709 PageRank: 0.0053050374
+
+Block: 54 Node: 545089 PageRank: 2.1890456E-7
+Block: 54 Node: 545088 PageRank: 3.2350028E-4
+
+Block: 55 Node: 555467 PageRank: 0.00106916
+Block: 55 Node: 555468 PageRank: 7.672387E-7
+
+Block: 56 Node: 565846 PageRank: 2.1890456E-7
+Block: 56 Node: 565847 PageRank: 2.1890456E-7
+
+Block: 57 Node: 576226 PageRank: 2.1890456E-7
+Block: 57 Node: 576225 PageRank: 8.721734E-6
+
+Block: 58 Node: 586605 PageRank: 2.7618032E-7
+Block: 58 Node: 586604 PageRank: 2.4958164E-4
+
+Block: 59 Node: 596586 PageRank: 1.3860187E-6
+Block: 59 Node: 596585 PageRank: 1.3333207E-6
+
+Block: 6 Node: 60842 PageRank: 2.1890456E-7
+Block: 6 Node: 60841 PageRank: 7.269272E-6
+
+Block: 60 Node: 606368 PageRank: 2.1890456E-7
+Block: 60 Node: 606367 PageRank: 2.8912274E-7
+
+Block: 61 Node: 616149 PageRank: 2.1890456E-7
+Block: 61 Node: 616148 PageRank: 8.241961E-7
+
+Block: 62 Node: 626449 PageRank: 2.5840703E-7
+Block: 62 Node: 626448 PageRank: 2.1890456E-7
+
+Block: 63 Node: 636240 PageRank: 2.2422081E-7
+Block: 63 Node: 636241 PageRank: 2.2454302E-7
+
+Block: 64 Node: 646023 PageRank: 4.1094546E-7
+Block: 64 Node: 646022 PageRank: 5.6821244E-7
+
+Block: 65 Node: 655805 PageRank: 2.1890456E-7
+Block: 65 Node: 655804 PageRank: 2.2422081E-7
+
+Block: 66 Node: 665666 PageRank: 2.5611834E-7
+Block: 66 Node: 665667 PageRank: 2.2333477E-7
+
+Block: 67 Node: 675448 PageRank: 2.1890456E-7
+Block: 67 Node: 675449 PageRank: 4.9051478E-6
+
+Block: 7 Node: 70592 PageRank: 2.343532E-5
+Block: 7 Node: 70591 PageRank: 2.343532E-5
+
+Block: 8 Node: 80119 PageRank: 4.905771E-7
+Block: 8 Node: 80118 PageRank: 2.6517682E-7
+
+Block: 9 Node: 90497 PageRank: 2.1890456E-7
+Block: 9 Node: 90498 PageRank: 8.7486715E-6
+
+Iteration 3 avg error 0.005237644
+Iteration 3 avg iteration 2.7205882
+Block: 0 Node: 0 PageRank: 1.1084483E-5
+Block: 0 Node: 1 PageRank: 4.1540992E-5
+
+Block: 1 Node: 10329 PageRank: 2.1890456E-7
+Block: 1 Node: 10328 PageRank: 3.5611708E-7
+
+Block: 10 Node: 100501 PageRank: 9.931391E-7
+Block: 10 Node: 100502 PageRank: 1.1648897E-6
+
+Block: 11 Node: 110567 PageRank: 4.1632258E-4
+Block: 11 Node: 110568 PageRank: 2.1890456E-7
+
+Block: 12 Node: 120946 PageRank: 6.58778E-7
+Block: 12 Node: 120945 PageRank: 7.9671497E-7
+
+Block: 13 Node: 131000 PageRank: 2.2454302E-7
+Block: 13 Node: 130999 PageRank: 2.2454302E-7
+
+Block: 14 Node: 140575 PageRank: 2.2454302E-7
+Block: 14 Node: 140574 PageRank: 8.1747485E-4
+
+Block: 15 Node: 150953 PageRank: 6.285468E-4
+Block: 15 Node: 150954 PageRank: 0.0010819668
+
+Block: 16 Node: 161332 PageRank: 2.1890456E-7
+Block: 16 Node: 161333 PageRank: 2.1890456E-7
+
+Block: 17 Node: 171154 PageRank: 2.1890456E-7
+Block: 17 Node: 171155 PageRank: 2.1890456E-7
+
+Block: 18 Node: 181514 PageRank: 2.2333477E-7
+Block: 18 Node: 181515 PageRank: 7.4392755E-4
+
+Block: 19 Node: 191625 PageRank: 1.0532385E-4
 Block: 19 Node: 191626 PageRank: 2.1890456E-7
 
 Block: 2 Node: 20373 PageRank: 2.1890456E-7
 Block: 2 Node: 20374 PageRank: 2.1890456E-7
 
-Block: 20 Node: 202004 PageRank: 9.0343804E-7
-Block: 20 Node: 202005 PageRank: 9.580946E-7
+Block: 20 Node: 202004 PageRank: 4.5883695E-7
+Block: 20 Node: 202005 PageRank: 4.8643074E-7
 
-Block: 21 Node: 212383 PageRank: 1.6389115E-4
 Block: 21 Node: 212384 PageRank: 2.1890456E-7
+Block: 21 Node: 212383 PageRank: 8.533668E-4
 
-Block: 22 Node: 222763 PageRank: 2.2422081E-7
-Block: 22 Node: 222762 PageRank: 2.2422081E-7
+Block: 22 Node: 222762 PageRank: 2.249628E-7
+Block: 22 Node: 222763 PageRank: 2.249628E-7
 
-Block: 23 Node: 232594 PageRank: 2.9668786E-7
-Block: 23 Node: 232593 PageRank: 2.3348746E-7
+Block: 23 Node: 232594 PageRank: 2.9593593E-7
+Block: 23 Node: 232593 PageRank: 2.1890456E-7
 
-Block: 24 Node: 242878 PageRank: 2.1890456E-7
-Block: 24 Node: 242879 PageRank: 4.4098095E-7
+Block: 24 Node: 242878 PageRank: 6.460217E-7
+Block: 24 Node: 242879 PageRank: 2.1890456E-7
 
-Block: 25 Node: 252938 PageRank: 4.8064335E-6
-Block: 25 Node: 252939 PageRank: 5.3467295E-7
+Block: 25 Node: 252939 PageRank: 4.847127E-7
+Block: 25 Node: 252938 PageRank: 3.2050245E-6
 
-Block: 26 Node: 263149 PageRank: 2.1890456E-7
-Block: 26 Node: 263150 PageRank: 4.868683E-7
+Block: 26 Node: 263150 PageRank: 2.1890456E-7
+Block: 26 Node: 263149 PageRank: 5.666352E-6
 
-Block: 27 Node: 273210 PageRank: 2.9108664E-5
-Block: 27 Node: 273211 PageRank: 2.7166327E-6
+Block: 27 Node: 273210 PageRank: 1.6198785E-5
+Block: 27 Node: 273211 PageRank: 2.1890456E-7
 
-Block: 28 Node: 283473 PageRank: 2.36761E-7
-Block: 28 Node: 283474 PageRank: 2.36761E-7
+Block: 28 Node: 283473 PageRank: 2.556856E-7
+Block: 28 Node: 283474 PageRank: 2.556856E-7
 
-Block: 29 Node: 293255 PageRank: 2.1890456E-7
-Block: 29 Node: 293256 PageRank: 7.002237E-7
+Block: 29 Node: 293255 PageRank: 3.0669807E-7
+Block: 29 Node: 293256 PageRank: 3.6734705E-6
 
 Block: 3 Node: 30630 PageRank: 2.1890456E-7
-Block: 3 Node: 30629 PageRank: 2.1890456E-7
+Block: 3 Node: 30629 PageRank: 2.3323611E-7
 
-Block: 30 Node: 303043 PageRank: 2.1890456E-7
-Block: 30 Node: 303044 PageRank: 2.1890456E-7
+Block: 30 Node: 303044 PageRank: 2.4308831E-6
+Block: 30 Node: 303043 PageRank: 2.3992274E-7
 
-Block: 31 Node: 313370 PageRank: 2.1890456E-7
-Block: 31 Node: 313371 PageRank: 1.2092707E-5
+Block: 31 Node: 313370 PageRank: 2.5478946E-7
+Block: 31 Node: 313371 PageRank: 9.784331E-6
 
-Block: 32 Node: 323522 PageRank: 2.1890456E-7
-Block: 32 Node: 323523 PageRank: 3.363024E-7
+Block: 32 Node: 323522 PageRank: 2.3581991E-7
+Block: 32 Node: 323523 PageRank: 3.2040893E-7
 
-Block: 33 Node: 333883 PageRank: 1.0157425E-5
-Block: 33 Node: 333884 PageRank: 2.611126E-6
+Block: 33 Node: 333884 PageRank: 2.1890456E-7
+Block: 33 Node: 333883 PageRank: 6.659627E-6
 
-Block: 34 Node: 343664 PageRank: 2.1890456E-7
-Block: 34 Node: 343663 PageRank: 2.1890456E-7
+Block: 34 Node: 343663 PageRank: 1.8775788E-6
+Block: 34 Node: 343664 PageRank: 3.628559E-7
 
-Block: 35 Node: 353645 PageRank: 1.1090044E-6
-Block: 35 Node: 353646 PageRank: 9.466045E-7
+Block: 35 Node: 353645 PageRank: 1.5854552E-6
+Block: 35 Node: 353646 PageRank: 9.435054E-7
 
-Block: 36 Node: 363929 PageRank: 1.8010916E-6
-Block: 36 Node: 363930 PageRank: 2.1890456E-7
+Block: 36 Node: 363929 PageRank: 6.421514E-6
+Block: 36 Node: 363930 PageRank: 3.618213E-7
 
-Block: 37 Node: 374237 PageRank: 9.332551E-6
-Block: 37 Node: 374236 PageRank: 2.1890456E-7
+Block: 37 Node: 374236 PageRank: 2.3751144E-7
+Block: 37 Node: 374237 PageRank: 9.210786E-6
 
-Block: 38 Node: 384554 PageRank: 5.701017E-5
-Block: 38 Node: 384555 PageRank: 4.6242358E-6
+Block: 38 Node: 384555 PageRank: 5.106735E-6
+Block: 38 Node: 384554 PageRank: 6.325026E-5
 
-Block: 39 Node: 394929 PageRank: 3.7372783E-6
-Block: 39 Node: 394930 PageRank: 2.6043244E-6
+Block: 39 Node: 394929 PageRank: 2.1776943E-6
+Block: 39 Node: 394930 PageRank: 1.3464195E-6
 
-Block: 4 Node: 40646 PageRank: 2.1890456E-7
-Block: 4 Node: 40645 PageRank: 2.1890456E-7
+Block: 4 Node: 40646 PageRank: 1.6975044E-5
+Block: 4 Node: 40645 PageRank: 1.6975044E-5
 
-Block: 40 Node: 404713 PageRank: 4.0497343E-7
-Block: 40 Node: 404712 PageRank: 2.1890456E-7
+Block: 40 Node: 404712 PageRank: 3.0782076E-7
+Block: 40 Node: 404713 PageRank: 4.805522E-7
 
-Block: 41 Node: 414617 PageRank: 3.7005955E-7
-Block: 41 Node: 414618 PageRank: 3.7005955E-7
+Block: 41 Node: 414617 PageRank: 3.7004725E-7
+Block: 41 Node: 414618 PageRank: 3.7004725E-7
 
-Block: 42 Node: 424748 PageRank: 1.6898266E-6
-Block: 42 Node: 424747 PageRank: 1.0341995E-6
+Block: 42 Node: 424748 PageRank: 1.9392944E-6
+Block: 42 Node: 424747 PageRank: 1.109214E-6
 
-Block: 43 Node: 434707 PageRank: 3.5656043E-7
-Block: 43 Node: 434708 PageRank: 1.4490892E-6
+Block: 43 Node: 434707 PageRank: 2.1890456E-7
+Block: 43 Node: 434708 PageRank: 4.0542096E-7
 
-Block: 44 Node: 444489 PageRank: 2.1890456E-7
-Block: 44 Node: 444490 PageRank: 2.2820801E-7
+Block: 44 Node: 444490 PageRank: 2.1890456E-7
+Block: 44 Node: 444489 PageRank: 3.54348E-7
 
-Block: 45 Node: 454286 PageRank: 2.809275E-7
-Block: 45 Node: 454285 PageRank: 2.1890456E-7
+Block: 45 Node: 454285 PageRank: 3.4997367E-7
+Block: 45 Node: 454286 PageRank: 2.1890456E-7
 
-Block: 46 Node: 464398 PageRank: 2.1890456E-7
-Block: 46 Node: 464399 PageRank: 2.1890456E-7
+Block: 46 Node: 464398 PageRank: 3.8977763E-7
+Block: 46 Node: 464399 PageRank: 3.8977763E-7
 
-Block: 47 Node: 474197 PageRank: 7.4063206E-7
-Block: 47 Node: 474196 PageRank: 2.1890456E-7
+Block: 47 Node: 474196 PageRank: 3.77922E-7
+Block: 47 Node: 474197 PageRank: 4.3308762E-7
 
-Block: 48 Node: 484050 PageRank: 8.56709E-6
-Block: 48 Node: 484051 PageRank: 6.830594E-6
+Block: 48 Node: 484050 PageRank: 1.0601601E-5
+Block: 48 Node: 484051 PageRank: 8.286496E-6
 
-Block: 49 Node: 493968 PageRank: 4.275538E-7
-Block: 49 Node: 493969 PageRank: 1.011025E-6
+Block: 49 Node: 493969 PageRank: 9.862374E-7
+Block: 49 Node: 493968 PageRank: 2.4053918E-7
 
-Block: 5 Node: 50463 PageRank: 7.9913053E-4
-Block: 5 Node: 50462 PageRank: 7.9614145E-4
+Block: 5 Node: 50463 PageRank: 0.0039072316
+Block: 5 Node: 50462 PageRank: 0.0037951055
 
-Block: 50 Node: 503752 PageRank: 7.9222275E-7
-Block: 50 Node: 503753 PageRank: 7.9187623E-7
+Block: 50 Node: 503752 PageRank: 7.909954E-7
+Block: 50 Node: 503753 PageRank: 7.909954E-7
 
-Block: 51 Node: 514132 PageRank: 1.9984504E-5
-Block: 51 Node: 514131 PageRank: 6.223372E-4
+Block: 51 Node: 514131 PageRank: 9.3744736E-4
+Block: 51 Node: 514132 PageRank: 2.2277836E-5
 
-Block: 52 Node: 524510 PageRank: 7.976789E-5
-Block: 52 Node: 524511 PageRank: 6.6335588E-6
+Block: 52 Node: 524510 PageRank: 2.4888502E-4
+Block: 52 Node: 524511 PageRank: 1.5011655E-6
 
-Block: 53 Node: 534709 PageRank: 0.0011812984
-Block: 53 Node: 534710 PageRank: 2.1890456E-7
+Block: 53 Node: 534710 PageRank: 3.132806E-6
+Block: 53 Node: 534709 PageRank: 0.005553233
 
-Block: 54 Node: 545088 PageRank: 0.0010995003
-Block: 54 Node: 545089 PageRank: 2.0987245E-5
+Block: 54 Node: 545088 PageRank: 3.0769611E-4
+Block: 54 Node: 545089 PageRank: 2.1890456E-7
 
-Block: 55 Node: 555468 PageRank: 7.2079644E-7
-Block: 55 Node: 555467 PageRank: 2.575278E-4
+Block: 55 Node: 555468 PageRank: 7.669571E-7
+Block: 55 Node: 555467 PageRank: 0.0011100533
 
-Block: 56 Node: 565847 PageRank: 2.1890456E-7
 Block: 56 Node: 565846 PageRank: 2.1890456E-7
+Block: 56 Node: 565847 PageRank: 2.1890456E-7
 
 Block: 57 Node: 576226 PageRank: 2.1890456E-7
-Block: 57 Node: 576225 PageRank: 2.1890456E-7
+Block: 57 Node: 576225 PageRank: 7.2286325E-6
 
-Block: 58 Node: 586604 PageRank: 3.5191752E-4
-Block: 58 Node: 586605 PageRank: 2.6826635E-7
+Block: 58 Node: 586604 PageRank: 2.4945207E-4
+Block: 58 Node: 586605 PageRank: 2.7616977E-7
 
-Block: 59 Node: 596586 PageRank: 1.3886057E-6
-Block: 59 Node: 596585 PageRank: 1.3327356E-6
+Block: 59 Node: 596585 PageRank: 1.3315581E-6
+Block: 59 Node: 596586 PageRank: 1.387801E-6
 
-Block: 6 Node: 60842 PageRank: 2.6692887E-6
-Block: 6 Node: 60841 PageRank: 3.6730734E-7
+Block: 6 Node: 60841 PageRank: 7.2002354E-6
+Block: 6 Node: 60842 PageRank: 2.1890456E-7
 
-Block: 60 Node: 606367 PageRank: 2.1890456E-7
-Block: 60 Node: 606368 PageRank: 2.2294954E-7
+Block: 60 Node: 606367 PageRank: 2.8663115E-7
+Block: 60 Node: 606368 PageRank: 2.1890456E-7
 
-Block: 61 Node: 616149 PageRank: 3.891806E-7
-Block: 61 Node: 616148 PageRank: 8.8304233E-7
+Block: 61 Node: 616149 PageRank: 2.1890456E-7
+Block: 61 Node: 616148 PageRank: 8.2417944E-7
 
-Block: 62 Node: 626449 PageRank: 2.5842104E-7
 Block: 62 Node: 626448 PageRank: 2.1890456E-7
+Block: 62 Node: 626449 PageRank: 2.5840703E-7
 
-Block: 63 Node: 636240 PageRank: 2.1890456E-7
-Block: 63 Node: 636241 PageRank: 2.1890456E-7
+Block: 63 Node: 636241 PageRank: 2.2454302E-7
+Block: 63 Node: 636240 PageRank: 2.2422081E-7
 
-Block: 64 Node: 646022 PageRank: 5.6834165E-7
-Block: 64 Node: 646023 PageRank: 4.1110246E-7
+Block: 64 Node: 646023 PageRank: 4.109424E-7
+Block: 64 Node: 646022 PageRank: 5.6820824E-7
 
+Block: 65 Node: 655804 PageRank: 2.2422081E-7
 Block: 65 Node: 655805 PageRank: 2.1890456E-7
-Block: 65 Node: 655804 PageRank: 2.1890456E-7
 
-Block: 66 Node: 665666 PageRank: 2.1890456E-7
-Block: 66 Node: 665667 PageRank: 3.1202987E-7
+Block: 66 Node: 665667 PageRank: 2.2333477E-7
+Block: 66 Node: 665666 PageRank: 2.5611834E-7
 
+Block: 67 Node: 675449 PageRank: 4.8943443E-6
 Block: 67 Node: 675448 PageRank: 2.1890456E-7
-Block: 67 Node: 675449 PageRank: 4.8258876E-6
 
-Block: 7 Node: 70591 PageRank: 2.1890456E-7
-Block: 7 Node: 70592 PageRank: 2.1890456E-7
+Block: 7 Node: 70592 PageRank: 1.6975044E-5
+Block: 7 Node: 70591 PageRank: 1.6975044E-5
 
-Block: 8 Node: 80119 PageRank: 4.623447E-7
-Block: 8 Node: 80118 PageRank: 2.4991604E-7
+Block: 8 Node: 80118 PageRank: 2.6514272E-7
+Block: 8 Node: 80119 PageRank: 4.90514E-7
 
-Block: 9 Node: 90498 PageRank: 9.872523E-6
-Block: 9 Node: 90497 PageRank: 9.1248063E-7
+Block: 9 Node: 90498 PageRank: 8.749122E-6
+Block: 9 Node: 90497 PageRank: 2.1890456E-7
 
-Iteration 0 avg error 2.9000587
-Iteration 0 avg iteration 7.147059
-Block: 0 Node: 0 PageRank: 6.644072E-6
-Block: 0 Node: 1 PageRank: 2.4227396E-5
+Iteration 4 avg error 0.0021321215
+Iteration 4 avg iteration 1.7647059
+Block: 0 Node: 0 PageRank: 1.264658E-5
+Block: 0 Node: 1 PageRank: 4.152781E-5
 
-Block: 1 Node: 10328 PageRank: 2.1890456E-7
-Block: 1 Node: 10329 PageRank: 2.3130916E-7
+Block: 1 Node: 10329 PageRank: 2.1890456E-7
+Block: 1 Node: 10328 PageRank: 3.5577176E-7
 
-Block: 10 Node: 100502 PageRank: 1.1867498E-6
-Block: 10 Node: 100501 PageRank: 1.0095089E-6
+Block: 10 Node: 100502 PageRank: 1.164884E-6
+Block: 10 Node: 100501 PageRank: 9.931343E-7
 
-Block: 11 Node: 110568 PageRank: 1.7342754E-5
-Block: 11 Node: 110567 PageRank: 1.8817E-4
+Block: 11 Node: 110567 PageRank: 4.1548963E-4
+Block: 11 Node: 110568 PageRank: 2.1890456E-7
 
-Block: 12 Node: 120946 PageRank: 6.705717E-7
-Block: 12 Node: 120945 PageRank: 8.119111E-7
+Block: 12 Node: 120946 PageRank: 6.5832444E-7
+Block: 12 Node: 120945 PageRank: 7.961423E-7
 
-Block: 13 Node: 131000 PageRank: 2.1890456E-7
-Block: 13 Node: 130999 PageRank: 2.1890456E-7
+Block: 13 Node: 130999 PageRank: 2.2454302E-7
+Block: 13 Node: 131000 PageRank: 2.2454302E-7
 
-Block: 14 Node: 140574 PageRank: 1.8298185E-4
-Block: 14 Node: 140575 PageRank: 2.1890456E-7
+Block: 14 Node: 140575 PageRank: 2.2454302E-7
+Block: 14 Node: 140574 PageRank: 8.045082E-4
 
-Block: 15 Node: 150953 PageRank: 1.8380753E-4
-Block: 15 Node: 150954 PageRank: 1.8467748E-4
+Block: 15 Node: 150954 PageRank: 9.863983E-4
+Block: 15 Node: 150953 PageRank: 6.192388E-4
 
-Block: 16 Node: 161333 PageRank: 2.2844591E-7
-Block: 16 Node: 161332 PageRank: 2.284454E-7
+Block: 16 Node: 161332 PageRank: 2.1890456E-7
+Block: 16 Node: 161333 PageRank: 2.1890456E-7
 
-Block: 17 Node: 171154 PageRank: 2.2595074E-7
-Block: 17 Node: 171155 PageRank: 2.2595074E-7
+Block: 17 Node: 171154 PageRank: 2.1890456E-7
+Block: 17 Node: 171155 PageRank: 2.1890456E-7
 
-Block: 18 Node: 181515 PageRank: 7.705496E-4
-Block: 18 Node: 181514 PageRank: 2.1890456E-7
+Block: 18 Node: 181514 PageRank: 2.2333477E-7
+Block: 18 Node: 181515 PageRank: 7.4390945E-4
 
-Block: 19 Node: 191625 PageRank: 3.2448148E-5
+Block: 19 Node: 191625 PageRank: 8.79193E-5
 Block: 19 Node: 191626 PageRank: 2.1890456E-7
 
 Block: 2 Node: 20373 PageRank: 2.1890456E-7
 Block: 2 Node: 20374 PageRank: 2.1890456E-7
 
-Block: 20 Node: 202004 PageRank: 9.0518904E-7
-Block: 20 Node: 202005 PageRank: 9.598396E-7
+Block: 20 Node: 202005 PageRank: 4.8643074E-7
+Block: 20 Node: 202004 PageRank: 4.5883695E-7
 
+Block: 21 Node: 212383 PageRank: 8.1365684E-4
 Block: 21 Node: 212384 PageRank: 2.1890456E-7
-Block: 21 Node: 212383 PageRank: 1.7174106E-4
 
-Block: 22 Node: 222763 PageRank: 2.2422081E-7
-Block: 22 Node: 222762 PageRank: 2.2422081E-7
+Block: 22 Node: 222763 PageRank: 2.249628E-7
+Block: 22 Node: 222762 PageRank: 2.249628E-7
 
-Block: 23 Node: 232594 PageRank: 2.9668763E-7
-Block: 23 Node: 232593 PageRank: 2.3348746E-7
+Block: 23 Node: 232593 PageRank: 2.1890456E-7
+Block: 23 Node: 232594 PageRank: 2.9593593E-7
 
-Block: 24 Node: 242878 PageRank: 2.1890456E-7
-Block: 24 Node: 242879 PageRank: 4.4049204E-7
+Block: 24 Node: 242879 PageRank: 2.1890456E-7
+Block: 24 Node: 242878 PageRank: 6.5720116E-7
 
-Block: 25 Node: 252938 PageRank: 4.758553E-6
-Block: 25 Node: 252939 PageRank: 5.292323E-7
+Block: 25 Node: 252939 PageRank: 4.8466234E-7
+Block: 25 Node: 252938 PageRank: 3.2044293E-6
 
-Block: 26 Node: 263149 PageRank: 2.1890456E-7
-Block: 26 Node: 263150 PageRank: 4.868619E-7
+Block: 26 Node: 263150 PageRank: 2.1890456E-7
+Block: 26 Node: 263149 PageRank: 3.3332847E-6
 
-Block: 27 Node: 273210 PageRank: 2.9169873E-5
-Block: 27 Node: 273211 PageRank: 2.487499E-6
+Block: 27 Node: 273210 PageRank: 1.6198792E-5
+Block: 27 Node: 273211 PageRank: 2.1890456E-7
 
-Block: 28 Node: 283473 PageRank: 2.36761E-7
-Block: 28 Node: 283474 PageRank: 2.36761E-7
+Block: 28 Node: 283474 PageRank: 2.556856E-7
+Block: 28 Node: 283473 PageRank: 2.556856E-7
 
-Block: 29 Node: 293255 PageRank: 2.1890456E-7
-Block: 29 Node: 293256 PageRank: 6.998378E-7
+Block: 29 Node: 293255 PageRank: 3.0388628E-7
+Block: 29 Node: 293256 PageRank: 3.672567E-6
 
+Block: 3 Node: 30629 PageRank: 2.3323611E-7
 Block: 3 Node: 30630 PageRank: 2.1890456E-7
-Block: 3 Node: 30629 PageRank: 2.1890456E-7
 
-Block: 30 Node: 303044 PageRank: 2.1890456E-7
-Block: 30 Node: 303043 PageRank: 2.1890456E-7
+Block: 30 Node: 303043 PageRank: 2.3111305E-7
+Block: 30 Node: 303044 PageRank: 2.2882466E-6
 
-Block: 31 Node: 313371 PageRank: 1.2006487E-5
-Block: 31 Node: 313370 PageRank: 2.1890456E-7
+Block: 31 Node: 313371 PageRank: 9.588015E-6
+Block: 31 Node: 313370 PageRank: 2.5478946E-7
 
-Block: 32 Node: 323522 PageRank: 2.1890456E-7
-Block: 32 Node: 323523 PageRank: 3.3621015E-7
+Block: 32 Node: 323522 PageRank: 2.3581991E-7
+Block: 32 Node: 323523 PageRank: 3.2095784E-7
 
-Block: 33 Node: 333883 PageRank: 1.0110216E-5
-Block: 33 Node: 333884 PageRank: 2.5909078E-6
+Block: 33 Node: 333884 PageRank: 2.1890456E-7
+Block: 33 Node: 333883 PageRank: 6.575833E-6
 
-Block: 34 Node: 343663 PageRank: 2.1890456E-7
-Block: 34 Node: 343664 PageRank: 2.1890456E-7
+Block: 34 Node: 343663 PageRank: 1.860435E-6
+Block: 34 Node: 343664 PageRank: 3.587997E-7
 
-Block: 35 Node: 353645 PageRank: 1.106299E-6
-Block: 35 Node: 353646 PageRank: 9.4571135E-7
+Block: 35 Node: 353645 PageRank: 1.6057678E-6
+Block: 35 Node: 353646 PageRank: 9.4349883E-7
 
-Block: 36 Node: 363929 PageRank: 1.7907236E-6
-Block: 36 Node: 363930 PageRank: 2.1890456E-7
+Block: 36 Node: 363929 PageRank: 6.496053E-6
+Block: 36 Node: 363930 PageRank: 3.615204E-7
 
-Block: 37 Node: 374237 PageRank: 9.269569E-6
-Block: 37 Node: 374236 PageRank: 2.1890456E-7
+Block: 37 Node: 374236 PageRank: 2.3751144E-7
+Block: 37 Node: 374237 PageRank: 9.208752E-6
 
-Block: 38 Node: 384554 PageRank: 5.678229E-5
-Block: 38 Node: 384555 PageRank: 4.606627E-6
+Block: 38 Node: 384555 PageRank: 5.106425E-6
+Block: 38 Node: 384554 PageRank: 6.272872E-5
 
-Block: 39 Node: 394929 PageRank: 3.6877168E-6
-Block: 39 Node: 394930 PageRank: 2.553616E-6
+Block: 39 Node: 394929 PageRank: 2.1725075E-6
+Block: 39 Node: 394930 PageRank: 1.3406878E-6
 
-Block: 4 Node: 40646 PageRank: 2.1890456E-7
-Block: 4 Node: 40645 PageRank: 2.1890456E-7
+Block: 4 Node: 40646 PageRank: 1.8074532E-5
+Block: 4 Node: 40645 PageRank: 1.8074532E-5
 
-Block: 40 Node: 404713 PageRank: 4.0497343E-7
-Block: 40 Node: 404712 PageRank: 2.1890456E-7
+Block: 40 Node: 404712 PageRank: 3.0782076E-7
+Block: 40 Node: 404713 PageRank: 4.805522E-7
 
-Block: 41 Node: 414617 PageRank: 3.700502E-7
-Block: 41 Node: 414618 PageRank: 3.700502E-7
+Block: 41 Node: 414617 PageRank: 3.7004725E-7
+Block: 41 Node: 414618 PageRank: 3.7004725E-7
 
-Block: 42 Node: 424748 PageRank: 1.6934025E-6
-Block: 42 Node: 424747 PageRank: 1.0322817E-6
+Block: 42 Node: 424748 PageRank: 1.9364963E-6
+Block: 42 Node: 424747 PageRank: 1.1084047E-6
 
-Block: 43 Node: 434707 PageRank: 3.55763E-7
-Block: 43 Node: 434708 PageRank: 1.4453902E-6
+Block: 43 Node: 434707 PageRank: 2.1890456E-7
+Block: 43 Node: 434708 PageRank: 4.0850855E-7
 
-Block: 44 Node: 444490 PageRank: 2.2820801E-7
-Block: 44 Node: 444489 PageRank: 2.1890456E-7
+Block: 44 Node: 444490 PageRank: 2.1890456E-7
+Block: 44 Node: 444489 PageRank: 3.5469242E-7
 
-Block: 45 Node: 454286 PageRank: 2.809275E-7
-Block: 45 Node: 454285 PageRank: 2.1890456E-7
+Block: 45 Node: 454285 PageRank: 3.4985965E-7
+Block: 45 Node: 454286 PageRank: 2.1890456E-7
 
-Block: 46 Node: 464398 PageRank: 2.1890456E-7
-Block: 46 Node: 464399 PageRank: 2.1890456E-7
+Block: 46 Node: 464398 PageRank: 4.4081165E-7
+Block: 46 Node: 464399 PageRank: 4.4081165E-7
 
-Block: 47 Node: 474197 PageRank: 7.38221E-7
-Block: 47 Node: 474196 PageRank: 2.1890456E-7
+Block: 47 Node: 474196 PageRank: 3.788552E-7
+Block: 47 Node: 474197 PageRank: 4.3265646E-7
 
-Block: 48 Node: 484051 PageRank: 6.752855E-6
-Block: 48 Node: 484050 PageRank: 8.473902E-6
+Block: 48 Node: 484051 PageRank: 8.2839815E-6
+Block: 48 Node: 484050 PageRank: 1.0603358E-5
 
-Block: 49 Node: 493969 PageRank: 1.0106706E-6
-Block: 49 Node: 493968 PageRank: 4.257561E-7
+Block: 49 Node: 493969 PageRank: 9.862374E-7
+Block: 49 Node: 493968 PageRank: 2.4053904E-7
 
-Block: 5 Node: 50463 PageRank: 7.972394E-4
-Block: 5 Node: 50462 PageRank: 7.9425395E-4
+Block: 5 Node: 50463 PageRank: 0.0037202174
+Block: 5 Node: 50462 PageRank: 0.0036298044
 
-Block: 50 Node: 503752 PageRank: 7.915191E-7
-Block: 50 Node: 503753 PageRank: 7.9136726E-7
+Block: 50 Node: 503752 PageRank: 7.9098766E-7
+Block: 50 Node: 503753 PageRank: 7.9098766E-7
 
-Block: 51 Node: 514131 PageRank: 6.2132336E-4
-Block: 51 Node: 514132 PageRank: 1.645914E-5
+Block: 51 Node: 514131 PageRank: 9.313593E-4
+Block: 51 Node: 514132 PageRank: 2.2252021E-5
 
-Block: 52 Node: 524510 PageRank: 7.729891E-5
-Block: 52 Node: 524511 PageRank: 6.434762E-6
+Block: 52 Node: 524511 PageRank: 1.4963468E-6
+Block: 52 Node: 524510 PageRank: 2.528631E-4
 
-Block: 53 Node: 534710 PageRank: 2.1890456E-7
-Block: 53 Node: 534709 PageRank: 0.0011775203
+Block: 53 Node: 534710 PageRank: 2.6219034E-6
+Block: 53 Node: 534709 PageRank: 0.005539032
 
-Block: 54 Node: 545088 PageRank: 0.0010930329
-Block: 54 Node: 545089 PageRank: 2.0865082E-5
+Block: 54 Node: 545088 PageRank: 3.1076983E-4
+Block: 54 Node: 545089 PageRank: 2.1890456E-7
 
-Block: 55 Node: 555468 PageRank: 7.2049164E-7
-Block: 55 Node: 555467 PageRank: 2.5535023E-4
+Block: 55 Node: 555467 PageRank: 0.0010636374
+Block: 55 Node: 555468 PageRank: 7.668455E-7
 
 Block: 56 Node: 565847 PageRank: 2.1890456E-7
 Block: 56 Node: 565846 PageRank: 2.1890456E-7
 
-Block: 57 Node: 576225 PageRank: 2.1890456E-7
+Block: 57 Node: 576225 PageRank: 7.42901E-6
 Block: 57 Node: 576226 PageRank: 2.1890456E-7
 
-Block: 58 Node: 586604 PageRank: 3.4784517E-4
-Block: 58 Node: 586605 PageRank: 2.6821635E-7
+Block: 58 Node: 586604 PageRank: 2.494023E-4
+Block: 58 Node: 586605 PageRank: 2.7616517E-7
 
-Block: 59 Node: 596586 PageRank: 1.3877935E-6
-Block: 59 Node: 596585 PageRank: 1.3324126E-6
+Block: 59 Node: 596585 PageRank: 1.3329222E-6
+Block: 59 Node: 596586 PageRank: 1.3862208E-6
 
-Block: 6 Node: 60842 PageRank: 2.6400521E-6
-Block: 6 Node: 60841 PageRank: 3.6730734E-7
+Block: 6 Node: 60841 PageRank: 7.216151E-6
+Block: 6 Node: 60842 PageRank: 2.1890456E-7
 
-Block: 60 Node: 606367 PageRank: 2.1890456E-7
-Block: 60 Node: 606368 PageRank: 2.2294954E-7
+Block: 60 Node: 606367 PageRank: 2.8599044E-7
+Block: 60 Node: 606368 PageRank: 2.1890456E-7
 
-Block: 61 Node: 616149 PageRank: 3.877749E-7
-Block: 61 Node: 616148 PageRank: 8.8304233E-7
+Block: 61 Node: 616149 PageRank: 2.1890456E-7
+Block: 61 Node: 616148 PageRank: 8.241732E-7
 
-Block: 62 Node: 626449 PageRank: 2.5841715E-7
 Block: 62 Node: 626448 PageRank: 2.1890456E-7
+Block: 62 Node: 626449 PageRank: 2.5840703E-7
 
-Block: 63 Node: 636240 PageRank: 2.1890456E-7
-Block: 63 Node: 636241 PageRank: 2.1890456E-7
+Block: 63 Node: 636241 PageRank: 2.2454302E-7
+Block: 63 Node: 636240 PageRank: 2.2422081E-7
 
-Block: 64 Node: 646022 PageRank: 5.682421E-7
-Block: 64 Node: 646023 PageRank: 4.1098536E-7
+Block: 64 Node: 646023 PageRank: 4.109404E-7
+Block: 64 Node: 646022 PageRank: 5.682056E-7
 
 Block: 65 Node: 655805 PageRank: 2.1890456E-7
-Block: 65 Node: 655804 PageRank: 2.1890456E-7
+Block: 65 Node: 655804 PageRank: 2.2422081E-7
 
-Block: 66 Node: 665666 PageRank: 2.1890456E-7
-Block: 66 Node: 665667 PageRank: 3.119726E-7
-
-Block: 67 Node: 675449 PageRank: 4.856896E-6
-Block: 67 Node: 675448 PageRank: 2.1890456E-7
-
-Block: 7 Node: 70592 PageRank: 2.1890456E-7
-Block: 7 Node: 70591 PageRank: 2.1890456E-7
-
-Block: 8 Node: 80119 PageRank: 4.623447E-7
-Block: 8 Node: 80118 PageRank: 2.4991604E-7
-
-Block: 9 Node: 90498 PageRank: 9.846325E-6
-Block: 9 Node: 90497 PageRank: 9.1005995E-7
-
-Iteration 1 avg error 0.002059853
-Iteration 1 avg iteration 1.0
-Block: 0 Node: 0 PageRank: 6.6414605E-6
-Block: 0 Node: 1 PageRank: 2.4122137E-5
-
-Block: 1 Node: 10328 PageRank: 2.1890456E-7
-Block: 1 Node: 10329 PageRank: 2.3130916E-7
-
-Block: 10 Node: 100502 PageRank: 1.1797279E-6
-Block: 10 Node: 100501 PageRank: 1.0042305E-6
-
-Block: 11 Node: 110568 PageRank: 1.730038E-5
-Block: 11 Node: 110567 PageRank: 1.8790207E-4
-
-Block: 12 Node: 120946 PageRank: 6.6581566E-7
-Block: 12 Node: 120945 PageRank: 8.0582294E-7
-
-Block: 13 Node: 131000 PageRank: 2.1890456E-7
-Block: 13 Node: 130999 PageRank: 2.1890456E-7
-
-Block: 14 Node: 140575 PageRank: 2.1890456E-7
-Block: 14 Node: 140574 PageRank: 1.8297115E-4
-
-Block: 15 Node: 150953 PageRank: 1.8375515E-4
-Block: 15 Node: 150954 PageRank: 1.8463521E-4
-
-Block: 16 Node: 161332 PageRank: 2.2844537E-7
-Block: 16 Node: 161333 PageRank: 2.2844537E-7
-
-Block: 17 Node: 171154 PageRank: 2.2595073E-7
-Block: 17 Node: 171155 PageRank: 2.2595073E-7
-
-Block: 18 Node: 181515 PageRank: 7.623893E-4
-Block: 18 Node: 181514 PageRank: 2.1890456E-7
-
-Block: 19 Node: 191625 PageRank: 3.232948E-5
-Block: 19 Node: 191626 PageRank: 2.1890456E-7
-
-Block: 2 Node: 20373 PageRank: 2.1890456E-7
-Block: 2 Node: 20374 PageRank: 2.1890456E-7
-
-Block: 20 Node: 202004 PageRank: 9.0637496E-7
-Block: 20 Node: 202005 PageRank: 9.61028E-7
-
-Block: 21 Node: 212383 PageRank: 1.7321405E-4
-Block: 21 Node: 212384 PageRank: 2.1890456E-7
-
-Block: 22 Node: 222763 PageRank: 2.2422081E-7
-Block: 22 Node: 222762 PageRank: 2.2422081E-7
-
-Block: 23 Node: 232594 PageRank: 2.9668763E-7
-Block: 23 Node: 232593 PageRank: 2.3348746E-7
-
-Block: 24 Node: 242878 PageRank: 2.1890456E-7
-Block: 24 Node: 242879 PageRank: 4.4023568E-7
-
-Block: 25 Node: 252938 PageRank: 4.724527E-6
-Block: 25 Node: 252939 PageRank: 5.2629986E-7
-
-Block: 26 Node: 263149 PageRank: 2.1890456E-7
-Block: 26 Node: 263150 PageRank: 4.8686024E-7
-
-Block: 27 Node: 273210 PageRank: 2.8118018E-5
-Block: 27 Node: 273211 PageRank: 2.485829E-6
-
-Block: 28 Node: 283473 PageRank: 2.36761E-7
-Block: 28 Node: 283474 PageRank: 2.36761E-7
-
-Block: 29 Node: 293255 PageRank: 2.1890456E-7
-Block: 29 Node: 293256 PageRank: 6.996955E-7
-
-Block: 3 Node: 30630 PageRank: 2.1890456E-7
-Block: 3 Node: 30629 PageRank: 2.1890456E-7
-
-Block: 30 Node: 303044 PageRank: 2.1890456E-7
-Block: 30 Node: 303043 PageRank: 2.1890456E-7
-
-Block: 31 Node: 313370 PageRank: 2.1890456E-7
-Block: 31 Node: 313371 PageRank: 1.2006477E-5
-
-Block: 32 Node: 323522 PageRank: 2.1890456E-7
-Block: 32 Node: 323523 PageRank: 3.3617994E-7
-
-Block: 33 Node: 333883 PageRank: 1.008556E-5
-Block: 33 Node: 333884 PageRank: 2.5804377E-6
-
-Block: 34 Node: 343663 PageRank: 2.1890456E-7
-Block: 34 Node: 343664 PageRank: 2.1890456E-7
-
-Block: 35 Node: 353645 PageRank: 1.1050095E-6
-Block: 35 Node: 353646 PageRank: 9.450642E-7
-
-Block: 36 Node: 363929 PageRank: 1.7830417E-6
-Block: 36 Node: 363930 PageRank: 2.1890456E-7
-
-Block: 37 Node: 374237 PageRank: 9.244662E-6
-Block: 37 Node: 374236 PageRank: 2.1890456E-7
-
-Block: 38 Node: 384554 PageRank: 5.662847E-5
-Block: 38 Node: 384555 PageRank: 4.594741E-6
-
-Block: 39 Node: 394929 PageRank: 3.6498463E-6
-Block: 39 Node: 394930 PageRank: 2.5161328E-6
-
-Block: 4 Node: 40646 PageRank: 2.1890456E-7
-Block: 4 Node: 40645 PageRank: 2.1890456E-7
-
-Block: 40 Node: 404713 PageRank: 4.0497343E-7
-Block: 40 Node: 404712 PageRank: 2.1890456E-7
-
-Block: 41 Node: 414617 PageRank: 3.7004796E-7
-Block: 41 Node: 414618 PageRank: 3.7004796E-7
-
-Block: 42 Node: 424748 PageRank: 1.6958003E-6
-Block: 42 Node: 424747 PageRank: 1.0312071E-6
-
-Block: 43 Node: 434707 PageRank: 3.5541365E-7
-Block: 43 Node: 434708 PageRank: 1.4437699E-6
-
-Block: 44 Node: 444489 PageRank: 2.1890456E-7
-Block: 44 Node: 444490 PageRank: 2.2820801E-7
-
-Block: 45 Node: 454286 PageRank: 2.809275E-7
-Block: 45 Node: 454285 PageRank: 2.1890456E-7
-
-Block: 46 Node: 464398 PageRank: 2.1890456E-7
-Block: 46 Node: 464399 PageRank: 2.1890456E-7
-
-Block: 47 Node: 474197 PageRank: 7.370474E-7
-Block: 47 Node: 474196 PageRank: 2.1890456E-7
-
-Block: 48 Node: 484050 PageRank: 8.473902E-6
-Block: 48 Node: 484051 PageRank: 6.752855E-6
-
-Block: 49 Node: 493969 PageRank: 1.0105655E-6
-Block: 49 Node: 493968 PageRank: 4.257561E-7
-
-Block: 5 Node: 50463 PageRank: 7.952137E-4
-Block: 5 Node: 50462 PageRank: 7.922418E-4
-
-Block: 50 Node: 503752 PageRank: 7.912108E-7
-Block: 50 Node: 503753 PageRank: 7.911443E-7
-
-Block: 51 Node: 514131 PageRank: 6.179509E-4
-Block: 51 Node: 514132 PageRank: 1.6131477E-5
-
-Block: 52 Node: 524510 PageRank: 7.564421E-5
-Block: 52 Node: 524511 PageRank: 6.2982535E-6
-
-Block: 53 Node: 534710 PageRank: 2.1890456E-7
-Block: 53 Node: 534709 PageRank: 0.0011764877
-
-Block: 54 Node: 545088 PageRank: 0.0010910184
-Block: 54 Node: 545089 PageRank: 2.0827032E-5
-
-Block: 55 Node: 555468 PageRank: 7.2044224E-7
-Block: 55 Node: 555467 PageRank: 2.5471402E-4
-
-Block: 56 Node: 565847 PageRank: 2.1890456E-7
-Block: 56 Node: 565846 PageRank: 2.1890456E-7
-
-Block: 57 Node: 576226 PageRank: 2.1890456E-7
-Block: 57 Node: 576225 PageRank: 2.1890456E-7
-
-Block: 58 Node: 586604 PageRank: 3.4618477E-4
-Block: 58 Node: 586605 PageRank: 2.6820385E-7
-
-Block: 59 Node: 596586 PageRank: 1.3873344E-6
-Block: 59 Node: 596585 PageRank: 1.3322618E-6
-
-Block: 6 Node: 60842 PageRank: 2.6290436E-6
-Block: 6 Node: 60841 PageRank: 3.6730734E-7
-
-Block: 60 Node: 606367 PageRank: 2.1890456E-7
-Block: 60 Node: 606368 PageRank: 2.2294954E-7
-
-Block: 61 Node: 616149 PageRank: 3.8701324E-7
-Block: 61 Node: 616148 PageRank: 8.8304233E-7
-
-Block: 62 Node: 626449 PageRank: 2.5841433E-7
-Block: 62 Node: 626448 PageRank: 2.1890456E-7
-
-Block: 63 Node: 636240 PageRank: 2.1890456E-7
-Block: 63 Node: 636241 PageRank: 2.1890456E-7
-
-Block: 64 Node: 646022 PageRank: 5.6821307E-7
-Block: 64 Node: 646023 PageRank: 4.109512E-7
-
-Block: 65 Node: 655805 PageRank: 2.1890456E-7
-Block: 65 Node: 655804 PageRank: 2.1890456E-7
-
-Block: 66 Node: 665667 PageRank: 3.119726E-7
-Block: 66 Node: 665666 PageRank: 2.1890456E-7
+Block: 66 Node: 665666 PageRank: 2.5611834E-7
+Block: 66 Node: 665667 PageRank: 2.2333477E-7
 
 Block: 67 Node: 675448 PageRank: 2.1890456E-7
-Block: 67 Node: 675449 PageRank: 4.8568963E-6
+Block: 67 Node: 675449 PageRank: 4.905028E-6
 
-Block: 7 Node: 70592 PageRank: 2.1890456E-7
-Block: 7 Node: 70591 PageRank: 2.1890456E-7
+Block: 7 Node: 70592 PageRank: 1.8074532E-5
+Block: 7 Node: 70591 PageRank: 1.8074532E-5
 
-Block: 8 Node: 80119 PageRank: 4.623447E-7
-Block: 8 Node: 80118 PageRank: 2.4991604E-7
+Block: 8 Node: 80119 PageRank: 4.90514E-7
+Block: 8 Node: 80118 PageRank: 2.6514272E-7
 
-Block: 9 Node: 90498 PageRank: 9.838947E-6
-Block: 9 Node: 90497 PageRank: 9.0923334E-7
+Block: 9 Node: 90497 PageRank: 2.1890456E-7
+Block: 9 Node: 90498 PageRank: 8.748596E-6
 
-Iteration 2 avg error 0.0013264706
-Iteration 2 avg iteration 1.0
-Block: 0 Node: 0 PageRank: 6.6400203E-6
-Block: 0 Node: 1 PageRank: 2.4059604E-5
-
-Block: 1 Node: 10328 PageRank: 2.1890456E-7
-Block: 1 Node: 10329 PageRank: 2.3130916E-7
-
-Block: 10 Node: 100502 PageRank: 1.1748973E-6
-Block: 10 Node: 100501 PageRank: 1.0005988E-6
-
-Block: 11 Node: 110568 PageRank: 1.728244E-5
-Block: 11 Node: 110567 PageRank: 1.8778762E-4
-
-Block: 12 Node: 120946 PageRank: 6.627541E-7
-Block: 12 Node: 120945 PageRank: 8.018771E-7
-
-Block: 13 Node: 131000 PageRank: 2.1890456E-7
-Block: 13 Node: 130999 PageRank: 2.1890456E-7
-
-Block: 14 Node: 140574 PageRank: 1.829667E-4
-Block: 14 Node: 140575 PageRank: 2.1890456E-7
-
-Block: 15 Node: 150954 PageRank: 1.8462875E-4
-Block: 15 Node: 150953 PageRank: 1.83747E-4
-
-Block: 16 Node: 161332 PageRank: 2.2844537E-7
-Block: 16 Node: 161333 PageRank: 2.2844537E-7
-
-Block: 17 Node: 171154 PageRank: 2.2595073E-7
-Block: 17 Node: 171155 PageRank: 2.2595073E-7
-
-Block: 18 Node: 181515 PageRank: 7.566979E-4
-Block: 18 Node: 181514 PageRank: 2.1890456E-7
-
-Block: 19 Node: 191625 PageRank: 3.2263873E-5
-Block: 19 Node: 191626 PageRank: 2.1890456E-7
-
-Block: 2 Node: 20373 PageRank: 2.1890456E-7
-Block: 2 Node: 20374 PageRank: 2.1890456E-7
-
-Block: 20 Node: 202004 PageRank: 9.0718066E-7
-Block: 20 Node: 202005 PageRank: 9.618359E-7
-
-Block: 21 Node: 212384 PageRank: 2.1890456E-7
-Block: 21 Node: 212383 PageRank: 1.7729713E-4
-
-Block: 22 Node: 222763 PageRank: 2.2422081E-7
-Block: 22 Node: 222762 PageRank: 2.2422081E-7
-
-Block: 23 Node: 232594 PageRank: 2.966876E-7
-Block: 23 Node: 232593 PageRank: 2.3348746E-7
-
-Block: 24 Node: 242878 PageRank: 2.1890456E-7
-Block: 24 Node: 242879 PageRank: 4.400983E-7
-
-Block: 25 Node: 252938 PageRank: 4.699594E-6
-Block: 25 Node: 252939 PageRank: 5.2369467E-7
-
-Block: 26 Node: 263149 PageRank: 2.1890456E-7
-Block: 26 Node: 263150 PageRank: 4.868599E-7
-
-Block: 27 Node: 273210 PageRank: 2.8039069E-5
-Block: 27 Node: 273211 PageRank: 2.424557E-6
-
-Block: 28 Node: 283473 PageRank: 2.36761E-7
-Block: 28 Node: 283474 PageRank: 2.36761E-7
-
-Block: 29 Node: 293255 PageRank: 2.1890456E-7
-Block: 29 Node: 293256 PageRank: 6.9964295E-7
-
-Block: 3 Node: 30630 PageRank: 2.1890456E-7
-Block: 3 Node: 30629 PageRank: 2.1890456E-7
-
-Block: 30 Node: 303044 PageRank: 2.1890456E-7
-Block: 30 Node: 303043 PageRank: 2.1890456E-7
-
-Block: 31 Node: 313371 PageRank: 1.1974693E-5
-Block: 31 Node: 313370 PageRank: 2.1890456E-7
-
-Block: 32 Node: 323522 PageRank: 2.1890456E-7
-Block: 32 Node: 323523 PageRank: 3.3617005E-7
-
-Block: 33 Node: 333883 PageRank: 1.0072394E-5
-Block: 33 Node: 333884 PageRank: 2.574973E-6
-
-Block: 34 Node: 343663 PageRank: 2.1890456E-7
-Block: 34 Node: 343664 PageRank: 2.1890456E-7
-
-Block: 35 Node: 353645 PageRank: 1.1043932E-6
-Block: 35 Node: 353646 PageRank: 9.445994E-7
-
-Block: 36 Node: 363929 PageRank: 1.777492E-6
-Block: 36 Node: 363930 PageRank: 2.1890456E-7
-
-Block: 37 Node: 374237 PageRank: 9.227537E-6
-Block: 37 Node: 374236 PageRank: 2.1890456E-7
-
-Block: 38 Node: 384554 PageRank: 5.6523924E-5
-Block: 38 Node: 384555 PageRank: 4.5866623E-6
-
-Block: 39 Node: 394929 PageRank: 3.6218264E-6
-Block: 39 Node: 394930 PageRank: 2.4887524E-6
-
-Block: 4 Node: 40646 PageRank: 2.1890456E-7
-Block: 4 Node: 40645 PageRank: 2.1890456E-7
-
-Block: 40 Node: 404713 PageRank: 4.0497343E-7
-Block: 40 Node: 404712 PageRank: 2.1890456E-7
-
-Block: 41 Node: 414617 PageRank: 3.7004742E-7
-Block: 41 Node: 414618 PageRank: 3.7004742E-7
-
-Block: 42 Node: 424748 PageRank: 1.6974171E-6
-Block: 42 Node: 424747 PageRank: 1.0306237E-6
-
-Block: 43 Node: 434707 PageRank: 3.5526062E-7
-Block: 43 Node: 434708 PageRank: 1.4430601E-6
-
-Block: 44 Node: 444489 PageRank: 2.1890456E-7
-Block: 44 Node: 444490 PageRank: 2.2820801E-7
-
-Block: 45 Node: 454286 PageRank: 2.809275E-7
-Block: 45 Node: 454285 PageRank: 2.1890456E-7
-
-Block: 46 Node: 464398 PageRank: 2.1890456E-7
-Block: 46 Node: 464399 PageRank: 2.1890456E-7
-
-Block: 47 Node: 474197 PageRank: 7.364762E-7
-Block: 47 Node: 474196 PageRank: 2.1890456E-7
-
-Block: 48 Node: 484051 PageRank: 6.6855264E-6
-Block: 48 Node: 484050 PageRank: 8.454815E-6
-
-Block: 49 Node: 493968 PageRank: 4.2540415E-7
-Block: 49 Node: 493969 PageRank: 1.0105656E-6
-
-Block: 5 Node: 50463 PageRank: 7.942869E-4
-Block: 5 Node: 50462 PageRank: 7.913208E-4
-
-Block: 50 Node: 503752 PageRank: 7.910758E-7
-Block: 50 Node: 503753 PageRank: 7.910467E-7
-
-Block: 51 Node: 514131 PageRank: 6.1751175E-4
-Block: 51 Node: 514132 PageRank: 1.5469597E-5
-
-Block: 52 Node: 524510 PageRank: 7.4564436E-5
-Block: 52 Node: 524511 PageRank: 6.207437E-6
-
-Block: 53 Node: 534710 PageRank: 2.1890456E-7
-Block: 53 Node: 534709 PageRank: 0.0011762669
-
-Block: 54 Node: 545088 PageRank: 0.0010902872
-Block: 54 Node: 545089 PageRank: 2.081322E-5
-
-Block: 55 Node: 555468 PageRank: 7.2043423E-7
-Block: 55 Node: 555467 PageRank: 2.5453168E-4
-
-Block: 56 Node: 565847 PageRank: 2.1890456E-7
-Block: 56 Node: 565846 PageRank: 2.1890456E-7
-
-Block: 57 Node: 576225 PageRank: 2.1890456E-7
-Block: 57 Node: 576226 PageRank: 2.1890456E-7
-
-Block: 58 Node: 586604 PageRank: 3.4551884E-4
-Block: 58 Node: 586605 PageRank: 2.6820075E-7
-
-Block: 59 Node: 596586 PageRank: 1.3870737E-6
-Block: 59 Node: 596585 PageRank: 1.3321942E-6
-
-Block: 6 Node: 60842 PageRank: 2.6248654E-6
-Block: 6 Node: 60841 PageRank: 3.6730734E-7
-
-Block: 60 Node: 606367 PageRank: 2.1890456E-7
-Block: 60 Node: 606368 PageRank: 2.2294954E-7
-
-Block: 61 Node: 616149 PageRank: 3.866008E-7
-Block: 61 Node: 616148 PageRank: 8.8304233E-7
-
-Block: 62 Node: 626449 PageRank: 2.584123E-7
-Block: 62 Node: 626448 PageRank: 2.1890456E-7
-
-Block: 63 Node: 636240 PageRank: 2.1890456E-7
-Block: 63 Node: 636241 PageRank: 2.1890456E-7
-
-Block: 64 Node: 646022 PageRank: 5.682046E-7
-Block: 64 Node: 646023 PageRank: 4.109412E-7
-
-Block: 65 Node: 655805 PageRank: 2.1890456E-7
-Block: 65 Node: 655804 PageRank: 2.1890456E-7
-
-Block: 66 Node: 665667 PageRank: 3.1193298E-7
-Block: 66 Node: 665666 PageRank: 2.1890456E-7
-
-Block: 67 Node: 675449 PageRank: 4.8742477E-6
-Block: 67 Node: 675448 PageRank: 2.1890456E-7
-
-Block: 7 Node: 70592 PageRank: 2.1890456E-7
-Block: 7 Node: 70591 PageRank: 2.1890456E-7
-
-Block: 8 Node: 80119 PageRank: 4.623447E-7
-Block: 8 Node: 80118 PageRank: 2.4991604E-7
-
-Block: 9 Node: 90498 PageRank: 9.836864E-6
-Block: 9 Node: 90497 PageRank: 9.089519E-7
-
-Iteration 3 avg error 8.6617644E-4
-Iteration 3 avg iteration 1.0
+Iteration 5 avg error 7.083948E-4
+Iteration 5 avg iteration 1.1911764
